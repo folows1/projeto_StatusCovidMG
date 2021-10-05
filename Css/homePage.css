@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+ 
+/* CABEÇALHO */
+
+#cabecalho{   
+    width: auto;
+    height: 100px;
+    background: #ffffff;
+}
+
+#logoMG{
+    float: right;
+    width: 140px;
+    height: 65px;
+}
+
+#logoPA{
+    float: right;
+    width: 60;
+    height: 65;
+}
+
+#logoUnivas{
+    margin: 20px 20px;   
+    width: 80px;
+    height: 25;
+}
+
+#logoSCMG{
+    margin: auto;
+    width: 80px;
+
+}
+
+/* #NOTICIA*/
+
+.slider{
+    display: block;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
+.slider img{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+
+}
+
+
