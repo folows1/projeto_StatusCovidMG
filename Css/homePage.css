@@ -1,60 +1,36 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+    background-image: url(/img/Background_HomePage_Vacina.png);
 }
  
-/* CABEÇALHO */
-
-#cabecalho{   
-    width: auto;
-    height: 100px;
-    background: #ffffff;
-}
-
-#logoMG{
-    float: right;
-    width: 140px;
-    height: 65px;
-}
-
-#logoPA{
-    float: right;
-    width: 60;
-    height: 65;
-}
-
-#logoUnivas{
-    margin: 20px 20px;   
-    width: 80px;
-    height: 25;
-}
-
-#logoSCMG{
-    margin: auto;
-    width: 80px;
-
-}
-
-/* #NOTICIA*/
-
-.slider{
-    display: block;
-    margin-top: 20px;
-    position: relative;
-}
-
-.slider li{
-    list-style: none;
+#LogoSCMG{
     position: absolute;
+    width: 250px;
+    height: 58.49px;
+    left: 445px;
+    top: 13px;
+    background: transparent;
 }
 
-.slider img{
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    vertical-align: top;
-
+#LogoFB{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1287;
+    top: 27px;
 }
-
-
+#LogoTwitter{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1339;
+    top: 27px;
+}
+#LogoInsta{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1391;
+    top: 27px;
+}
