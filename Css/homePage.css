@@ -4,6 +4,7 @@
     background-image: url(/img/Background_HomePage_Vacina.png);
 }
  
+/* CABEÇALHO */
 #LogoSCMG{
     position: absolute;
     width: 250px;
@@ -17,20 +18,145 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 1287;
+    left: 1200;
     top: 27px;
 }
 #LogoTwitter{
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 1339;
+    left: 1250;
     top: 27px;
 }
 #LogoInsta{
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 1391;
+    left: 1300;
     top: 27px;
 }
+/* BODY */
+#group{
+    position: absolute;
+    left: 0px;
+    top: 400px;
+    background: transparent;
+}
+
+#titulo{
+    position: absolute;
+    width: 253px;
+    height: 56px;
+    left: 968px;
+    top: 137px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #000000;
+}
+
+#corpo{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    left: 795px;
+    top: 224px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    background: transparent;
+    color: #000000;
+}
+
+#cidades, #vacinas{
+    position: absolute;
+    background: #9B000F;
+    border-radius: 50px;
+}
+
+#cidades{
+    width: 180px;
+    height: 55px;
+    left: 871px;
+    top: 736px;
+}
+#vacinas{
+    width: 180px;
+    height: 55px;
+    left: 1132px;
+    top: 736px;
+}
+
+#cidade, #vacina{
+    background: transparent;
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    left: 90px;
+    top: 15px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+#logoCidades, #LogoVacina{
+    background: transparent;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 30px;
+    top: 5px;
+
+}
+
+#rodape{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 921px;
+    background: #9B000F;
+}
+
+#logoUnivas{
+    background: transparent;
+    position: absolute;
+    width: 96px;
+    height: 19px;
+    left: 39px;
+    top: 25px;
+}
+
+#dirAuto{
+    background: transparent;
+    position: absolute;
+    width: 385px;
+    height: 28px;
+    left: 1012px;
+    top: 25px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+
+
