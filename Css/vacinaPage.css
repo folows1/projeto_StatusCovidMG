@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CABECALHO */
+
+#LogoSCMG{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 445px;
+    top: 13px;
+    background-color: transparent ;
+}
+
+#LogoFB{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 1200px;
+    top: 30px;
+}
+
+#LogoTwitter{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-left:1250px;
+    margin-top: 30px;
+}
+
+#LogoInsta{
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-left: 1300px;
+    margin-top: 30px;
+}
