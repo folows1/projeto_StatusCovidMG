@@ -1,123 +1,103 @@
 *{
     margin: 0px;
-    padding: 0px;
-    
+    padding: 0px; 
+    font-family: 'Roboto', sans-serif;
 }
 
-#background{
-    max-width: 100%;
-    max-height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: top left;
-    
+body{
+    background-color: rgb(233, 190, 190);
 }
- 
+
 /* CABEÇALHO */
 #LogoSCMG{
-    position: absolute;
-    width: 250px;
-    height: 60px;
-    left: 445px;
-    top: 13px;
+    position: fixed;
+    width: 15rem;
+    height: auto;
+    left: 40%;
+    top: 2%;
     background: transparent;
 }
 
 #LogoFB{
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 1200px;
-    top: 27px;
+    position: fixed;
+    height: 2rem;
+    left: 75%;
+    top: 2%;
 }
 #LogoTwitter{
-    position: absolute;
+    position: fixed;
     width: auto;
-    height: auto;
-    left: 1250px;
-    top: 27px;
+    height: 2rem;
+    left: 80%;
+    top: 2%;
 }
 #LogoInsta{
-    position: absolute;
+    position: fixed;
     width: auto;
-    height: auto;
-    left: 1300px;
-    top: 27px;
+    height: 2rem;
+    left: 85%;
+    top: 2%;
 }
 /* BODY */
 #group{
     position: absolute;
-    left: 0px;
-    top: 400px;
+    width: auto;
+    height: 25Rem;
+    left:0%;
+    top: 20%;
     background: transparent;
 }
 
 #titulo{
     position: absolute;
-    width: 253px;
-    height: 56px;
-    left: 968px;
-    top: 137px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
+    width: auto;
+    height: 50px;
+    left: 65%;
+    top: 10%;
+    font-size: 40px;
+    line-height: 55px;
 
     color: #000000;
 }
 
 #corpo{
     position: absolute;
-    width: 600px;
-    height: 500px;
-    left: 795px;
-    top: 224px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    width: auto;
+    height: 20%;
+    left: 40%;
+    top: 20%;
+    font-size: 1.25em;
     text-align: center;
-
-    background: transparent;
     color: #000000;
 }
 
 #cidades, #vacinas{
     position: absolute;
     background: #9B000F;
-    border-radius: 50px;
+    border-radius: 25rem;
 }
 
 #cidades{
-    width: 180px;
-    height: 55px;
-    left: 871px;
-    top: 736px;
+    width: 11em;
+    height: 3em;
+    left: 55%;
+    top: 60%;
 }
 #vacinas{
-    width: 180px;
-    height: 55px;
-    left: 1132px;
-    top: 736px;
+    width: 11em;
+    height: 3em;
+    left: 75%;
+    top: 60%;
 }
 
 #cidade, #vacina{
     background: transparent;
     position: absolute;
-    width: 90px;
-    height: 30px;
-    left: 90px;
-    top: 15px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    width: 1em;
+    height: auto;
+    left: 50%;
+    top: 25%;
+    font-size: 1.25em;
 
     color: #FFFFFF;
 }
@@ -125,47 +105,36 @@
 #logoCidades, #LogoVacina{
     background: transparent;
     position: absolute;
-    width: 45px;
-    height: 45px;
-    left: 30px;
-    top: 5px;
+    width: 2.5em;
+    height: auto;
+    left: 15%;
+    top: 5%;
 
 }
 
 /* RODAPE */
 
 #rodape{
-    position: absolute;
-    width: 1440px;
-    height: 100px;
-    left: 0px;
-    top: 921px;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+	bottom: 0;
     background: #9B000F;
 }
 
 #logoUnivas{
-    background: transparent;
+	top: 1em;
+    width: 6em;
+    height: auto;
     position: absolute;
-    width: 95px;
-    height: 20px;
-    left: 40px;
-    top: 25px;
+    left: 1em;
 }
 
 #dirAuto{
-    background: transparent;
     position: absolute;
-    width: 385px;
-    height: 30px;
-    left: 1000px;
-    top: 25px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 28px;
-
+    margin-left: 60vw;
+    margin-bottom: 10vh;
+    font-size: 1em;
     color: #FFFFFF;
 }
 
