@@ -17,7 +17,7 @@
 #LogoSCMG{
     position: absolute;
     width: 250px;
-    height: 58.49px;
+    height: 60px;
     left: 445px;
     top: 13px;
     background: transparent;
@@ -132,6 +132,8 @@
 
 }
 
+/* RODAPE */
+
 #rodape{
     position: absolute;
     width: 1440px;
@@ -144,9 +146,9 @@
 #logoUnivas{
     background: transparent;
     position: absolute;
-    width: 96px;
-    height: 19px;
-    left: 39px;
+    width: 95px;
+    height: 20px;
+    left: 40px;
     top: 25px;
 }
 
@@ -154,14 +156,14 @@
     background: transparent;
     position: absolute;
     width: 385px;
-    height: 28px;
-    left: 1012px;
+    height: 30px;
+    left: 1000px;
     top: 25px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 28px;
 
     color: #FFFFFF;

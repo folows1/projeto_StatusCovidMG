@@ -7,10 +7,10 @@
 
 #LogoSCMG{
     position: absolute;
-    width: 250px;
-    height: 60px;
-    left: 445px;
-    top: 13px;
+    width: auto;
+    height: auto;
+    left: 20px;
+    top: 15px;
     background-color: transparent ;
 }
 
@@ -36,4 +36,105 @@
     height: auto;
     margin-left: 1300px;
     margin-top: 30px;
+}
+/* BODY */
+
+#vacina{
+    position: absolute;
+    background-color: transparent;
+    width: 420px;
+    height: 650px;
+    top: 210px;
+    left: 80px;
+
+}
+
+#titulo{
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 900px;
+    top: 150px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 55px;
+    color: #76000B
+
+}
+
+#texto{
+    position: absolute;
+    width: 700px;
+    height: 670px;
+    left: 680px;
+    top: 240px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #76000B;
+
+}
+
+/* RODAPE */
+#rodape{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 921px;;
+    background: #9B000F;
+}
+
+#logoUnivas{
+    background: transparent;
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    left: 40px;
+    top: 25px;
+}
+
+#dirAuto{
+    background: transparent;
+    position: absolute;
+    width: 385;
+    height: 30;
+    left: 1000;
+    top: 25px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#menuVacinas{
+    margin: 100px 300px; 
+
+}
+
+#menuVacinas ul{
+    list-style-type: none;
+}
+
+#menuVacinas li {
+    display: inline;
+    padding: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #76000B;
+    
 }
