@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Pouso Alegre",
+        "totalCasos": 24677,
+        "totalObitos": 462,
+        "totalRecuperados": 24153,
+        "casosAcompanhamento": 62,
+        "totalPrimeiraDose": 120626,
+        "totalSegundaDose": 83943,
+        "totalDoseUnica": 3713
+    },
+    {
+        "nome": "Cidade 2",
+        "totalCasos": 24677,
+        "totalObitos": 462,
+        "totalRecuperados": 24153,
+        "casosAcompanhamento": 62,
+        "totalPrimeiraDose": 120626,
+        "totalSegundaDose": 83943,
+        "totalDoseUnica": 3713
+    }
+]
