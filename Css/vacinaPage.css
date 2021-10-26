@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /* CABECALHO */
 
-#LogoSCMG{
+#LogoSCMG {
     position: absolute;
     width: auto;
     height: auto;
     left: 20px;
     top: 15px;
-    background-color: transparent ;
+    background-color: transparent;
 }
 
-#LogoFB{
+#LogoFB {
     position: absolute;
     width: auto;
     height: auto;
@@ -22,15 +22,15 @@
     top: 30px;
 }
 
-#LogoTwitter{
+#LogoTwitter {
     position: absolute;
     width: auto;
     height: auto;
-    margin-left:1250px;
+    margin-left: 1250px;
     margin-top: 30px;
 }
 
-#LogoInsta{
+#LogoInsta {
     position: absolute;
     width: auto;
     height: auto;
@@ -39,17 +39,16 @@
 }
 /* BODY */
 
-#vacina{
+#vacina {
     position: absolute;
     background-color: transparent;
     width: 420px;
     height: 650px;
     top: 210px;
     left: 80px;
-
 }
 
-#titulo{
+#titulo {
     position: absolute;
     width: 240px;
     height: 60px;
@@ -61,11 +60,10 @@
     font-weight: normal;
     font-size: 50px;
     line-height: 55px;
-    color: #76000B
-
+    color: #76000b;
 }
 
-#texto{
+#texto {
     position: absolute;
     width: 700px;
     height: 670px;
@@ -79,21 +77,20 @@
     line-height: 30px;
     text-align: center;
 
-    color: #76000B;
-
+    color: #76000b;
 }
 
 /* RODAPE */
-#rodape{
+#rodape {
     position: absolute;
     width: 1440px;
     height: 100px;
     left: 0px;
-    top: 921px;;
-    background: #9B000F;
+    top: 921px;
+    background: #9b000f;
 }
 
-#logoUnivas{
+#logoUnivas {
     background: transparent;
     position: absolute;
     width: 95px;
@@ -102,7 +99,7 @@
     top: 25px;
 }
 
-#dirAuto{
+#dirAuto {
     background: transparent;
     position: absolute;
     width: 385;
@@ -115,14 +112,13 @@
     font-weight: normal;
     font-size: 25;
     line-height: 28px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-#menuVacinas{
-    margin: 100px 300px; 
-
+#menuVacinas {
+    margin: 100px 300px;
 }
 
-#menuVacinas ul{
+#menuVacinas ul {
     list-style-type: none;
 }
 
@@ -135,6 +131,5 @@
     font-size: 24px;
     line-height: 28px;
 
-    color: #76000B;
-    
+    color: #76000b;
 }
