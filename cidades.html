@@ -12,32 +12,70 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="icon" type="image/png" href="/img/Cabecalho/Triangulo.png">
+        <link rel="icon" type="image/png" href="/img/Cabecalho/Triangulo.png" />
     </head>
     <body>
-        <div class="header">
-            <img id="LogoSCMG" src="/img/Cabecalho/LogoSCMG11.png" alt="LogoSCMG" />
-        </div>
         <div class="container">
-            <div class="div-selecao">
-                <select id="select-cidade">
-                    <option>Pouso Alegre</option>
-                    <option>Cachoeira de Minas</option>
-                    <option>Santa Rita do Sapucaí</option>
-                    <option>Paraisópolis</option>
-                </select>
+            <div class="header">
+                <img
+                    id="LogoSCMG"
+                    src="/img/Cabecalho/LogoSCMG11.png"
+                    alt="LogoSCMG"
+                />
             </div>
-            <div class="layer">
-                <div class="bloco1"><h6>Total de Casos</h6><span id="totalCasos">1</span></div>
-                <div class="bloco2"><h6>Casos em Acompanhamento</h6><span id="casosAtual">2</span></div>
-            </div>
-            <div class="layer">
-                <div class="bloco3"><h6>Vacinados 1ª Dose</h6><span id="primeiraDose">3</span></div>
-                <div class="bloco4"><h6>Vacinados 2ª Dose e dose única</h6><span id="totalVacinados">4</span></div>
-            </div>
-            <div class="layer">
-                <div class="bloco5"><h6>Número total de óbitos</h6><span id="totalMortes">5</span></div>
-                <div class="bloco6"><h6>Letalidade</h6><span id="letalidade">Letalidade</span></div>
+            <div class="box">
+                <div class="layer">
+                    <h2 class="label">Escolha uma cidade: <b>Última Atualização: 21/10/21</b></h2>
+                    <select id="select-cidade">
+                        <option>Pouso Alegre</option>
+                        <option>Cachoeira de Minas</option>
+                        <option>Santa Rita do Sapucaí</option>
+                        <option>Paraisópolis</option>
+                    </select>
+                    
+                </div>
+                <div class="layer">
+                    <div class="bloco">
+                        <h2>Total de Casos</h2>
+                        <span id="totalCasos">1</span>
+                    </div>
+                    <div class="bloco">
+                        <h2>Casos em Acompanhamento</h2>
+                        <span id="casosAtual">2</span>
+                    </div>
+                </div>
+                <div class="layer">
+                    <div class="bloco">
+                        <h2>Vacinados 1ª Dose</h2>
+                        <span id="primeiraDose">3</span>
+                    </div>
+                    <div class="bloco">
+                        <h2>Vacinados 2ª Dose e Dose única</h2>
+                        <span id="totalVacinados">4</span>
+                    </div>
+                </div>
+                <div class="layer">
+                    <div class="bloco">
+                        <h2>Número total de óbitos</h2>
+                        <span id="totalMortes">5</span>
+                    </div>
+                    <div class="bloco">
+                        <h2>Letalidade</h2>
+                        <span id="letalidade">Letalidade</span>
+                    </div>
+                </div>
+                <div class="layer">
+                    <h2>% Primeira Dose <b>92%</b></h2>
+                    <div class="porcentagem">
+                        <div class="porcentagem1"></div>
+                    </div>
+                </div>
+                <div class="layer">
+                    <h2>% Segunda Dose e Dose Única <b>92%</b></h2>
+                    <div class="porcentagem">
+                        <div class="porcentagem2"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
