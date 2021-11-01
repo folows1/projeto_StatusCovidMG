@@ -27,7 +27,7 @@ select {
 }
 
 .bloco {
-    width: 40%;
+    width: 45%;
     display: inline;
     float: left;
     text-align: center;
@@ -36,7 +36,7 @@ select {
 }
 
 .bloco2 {
-    width: 40%;
+    width: 45%;
     display: inline;
     float: right;
     text-align: center;
@@ -45,12 +45,12 @@ select {
 }
 
 .layer {
-    height: 150px;
+    height: 140px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    line-height: 75px;
+    line-height: 70px;
 }
 
 span{

@@ -1,25 +1,25 @@
-let dados = `[
+let dados = [
     {
-        "nome": "Pouso Alegre",
-        "totalCasos": 24677,
-        "totalObitos": 462,
-        "totalRecuperados": 24153,
-        "casosAcompanhamento": 62,
-        "totalPrimeiraDose": 120626,
-        "totalSegundaDose": 83943,
-        "totalDoseUnica": 3713
+        nome: "Pouso Alegre",
+        totalCasos: 24677,
+        totalObitos: 462,
+        totalRecuperados: 24153,
+        casosAcompanhamento: 62,
+        totalPrimeiraDose: 120626,
+        totalSegundaDose: 83943,
+        totalDoseUnica: 3713
     },
     {
-        "nome": "Cidade 2",
-        "totalCasos": 2,
-        "totalObitos": 462,
-        "totalRecuperados": 24153,
-        "casosAcompanhamento": 62,
-        "totalPrimeiraDose": 120626,
-        "totalSegundaDose": 83943,
-        "totalDoseUnica": 3713
+        nome: "Cidade 2",
+        totalCasos: 2,
+        totalObitos: 462,
+        totalRecuperados: 24153,
+        casosAcompanhamento: 62,
+        totalPrimeiraDose: 120626,
+        totalSegundaDose: 83943,
+        totalDoseUnica: 3713
     }
-]`
+]
 
 let totalCasos = document.getElementById("totalCasos")
 let casosAtual = document.getElementById("casosAtual")
@@ -30,15 +30,14 @@ let letalidade = document.getElementById("letalidade")
 const select = document.getElementById("select-cidade")
 
 const start = () => {
-    dados = JSON.parse(dados)
+    changeFront(0)
     select.onchange = handleChange
 }
 
 const handleChange = () => {
-    let selecionado = select.value
-    if (selecionado === "Pouso Alegre") {
+    if (select.value === "Pouso Alegre") {
         changeFront(0)
-    } else if (selecionado === "Cachoeira de Minas") {
+    } else if (select.value === "Cachoeira de Minas") {
         changeFront(1)
     }
 }
