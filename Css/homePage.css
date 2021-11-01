@@ -172,20 +172,20 @@ body {
         top: 2%;
     }
     /* BODY */
-    #group {
-        position: fixed;
-        width: 53%;
-        left: 0.5%;
+    .div_group{
+        margin-top: 15%;
+        text-align: center;
+
+    }
+    #group{
+        width: 73%;
         bottom: 50px;
-        background: transparent;
     }
 
     .div_texto {
-        position: absolute;
-        width: 43%;
-        top: 10%;
+        width: 90%;
         text-align: center;
-        right: 2%;
+        margin: 10% auto auto;
     }
 
     #titulo {
@@ -205,51 +205,58 @@ body {
         color: #000000;
     }
 
+    .div_button{
+        width: 60%;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #cidades,
     #vacinas {
-        position: absolute;
         background: #9b000f;
         border-radius: 25px;
+        vertical-align: middle;
+        box-shadow: 0 0 1em #410007;
+    }
+
+    #cidades:hover
+    #vacinas:hover {/*REFAZER HOVER */
+        background-color: violet;
+        box-shadow: 0 0 1em red;
+
     }
 
     #cidades {
-        width: 11em;
-        height: 3em;
-        margin-top: 5%;
-        margin-left: 3%;
+        width: 180px;
+        height: 50px;
+        display: inline;
+        float: left;
     }
     #vacinas {
-        width: 11em;
-        height: 3em;
-        margin-top: 5%;
-        margin-left: 60%;
+        width: 180px;
+        height: 50px;
+        display: inline;
+        float: right;
     }
 
     #cidade,
     #vacina {
-        background: transparent;
-        position: absolute;
-        width: 1em;
-        height: auto;
-        left: 50%;
-        top: 25%;
-        font-size: 1.25em;
-
+        display: inline;
+        font-size: 22px;
         color: #ffffff;
+        vertical-align: middle;
     }
 
     #logoCidades,
     #logoVacina {
-        background: transparent;
-        position: absolute;
-        width: 2.5em;
-        height: auto;
-        left: 15%;
-        top: 5%;
+        width: 45px;
+        margin-bottom: 2.5px;
+        margin-top: 2.5px;
+        margin-left: 25px;
+        vertical-align: middle;
     }
-
     /* RODAPE */
-
     #rodape {
         position: fixed;
         width: 100%;
@@ -268,7 +275,7 @@ body {
     #dirAuto {
         margin-left: 65%;
         margin-bottom: 2%;
-        font-size: 20px;
+        font-size: 10px;
         color: #ffffff;
     }
 }
