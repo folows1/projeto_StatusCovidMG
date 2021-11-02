@@ -5,14 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Status Cidades</title>
-        <link rel="stylesheet" href="/Css/cidades.css" />
+        <link rel="stylesheet" href="./Css/cidades.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
             rel="stylesheet"
         />
-        <link rel="icon" type="image/png" href="/img/Cabecalho/Triangulo.png" />
+        <link rel="icon" type="image/png" href="./img/Cabecalho/Triangulo.png" />
     </head>
     <body>
         <div class="container">
@@ -25,7 +25,7 @@
                 /></a>
             </div>
             <div class="box">
-                <div class="layer">
+                <div class="layer-select">
                     <h2 class="label">
                         Escolha uma cidade: <b>Última Atualização: 21/10/21</b>
                     </h2>
@@ -37,31 +37,11 @@
                     </select>
                 </div>
                 <div class="layer">
-                    <div class="bloco">
-                        <h2>Total de Casos</h2>
-                        <span id="totalCasos">1</span>
-                    </div>
-                    <div class="bloco2">
-                        <h2>Casos em Acompanhamento</h2>
-                        <span id="casosAtual">2</span>
-                    </div>
-                </div>
-                <div class="layer">
-                    <div class="bloco">
-                        <h2>Número total de óbitos</h2>
-                        <span id="totalMortes">5</span>
-                    </div>
-                    <div class="bloco2">
-                        <h2>Letalidade</h2>
-                        <span id="letalidade">Letalidade</span>
-                    </div>
-                </div>
-                <div class="layer">
-                    <div class="bloco">
+                    <div class="bloco b-vac1">
                         <h2>Vacinados 1ª Dose</h2>
                         <span id="primeiraDose">3</span>
                     </div>
-                    <div class="bloco2">
+                    <div class="bloco2 b-vac2">
                         <h2>Vacinados 2ª Dose e Dose única</h2>
                         <span id="totalVacinados">4</span>
                     </div>
@@ -76,6 +56,24 @@
                     <h2>% Segunda Dose e Dose Única<b id="porcentagem2Texto">92%</b></h2>
                     <div class="porcentagem">
                         <div class="porcentagem2" id="porcentagem2"></div>
+                    </div>
+                </div>
+                <div class="layer2">
+                    <div class="card b1">
+                        <h2>Total de Casos</h2>
+                        <span id="totalCasos">1</span>
+                    </div>
+                    <div class="card b2">
+                        <h2>Casos em Acompanhamento</h2>
+                        <span id="casosAtual">2</span>
+                    </div>
+                    <div class="card b3">
+                        <h2>Número total de óbitos</h2>
+                        <span id="totalMortes">5</span>
+                    </div>
+                    <div class="card b4">
+                        <h2>Letalidade</h2>
+                        <span id="letalidade">Letalidade</span>
                     </div>
                 </div>
             </div>

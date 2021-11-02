@@ -19,6 +19,10 @@ body {
     margin-right: auto;
 }
 
+span {
+    font-size: 20px;
+}
+
 select {
     font-size: 26px;
     background-color: rgb(236, 216, 216);
@@ -26,41 +30,43 @@ select {
     width: 400px;
 }
 
-.bloco {
+.bloco, .bloco2{
     width: 45%;
     display: inline;
-    float: left;
+    font-weight: 700;
     text-align: center;
-    background-color: aquamarine;
     border-radius: 15px;
+}
+
+.bloco {
+    float: left;
 }
 
 .bloco2 {
-    width: 45%;
-    display: inline;
     float: right;
-    text-align: center;
-    background-color: aquamarine;
-    border-radius: 15px;
 }
 
 .layer {
+    height: 100px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.box {
+    background-color: rgb(238, 202, 202, 0.95);
+    border-radius: 10px;
+}
+
+.layer-select {
     height: 140px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     line-height: 70px;
-}
-
-span{
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.box {
-    background-color: rgb(238, 202, 202, 0.95);
-    border-radius: 10px;
 }
 
 .header {
@@ -71,23 +77,68 @@ span{
     margin-bottom: 20px;
 }
 
-.porcentagem1 {
+.porcentagem1, .porcentagem2 {
+    transition: width 2s ease 0.5s;
+    border-radius: 10px;
     height: 10px;
-    background-color: green;
+    background-color: rgb(4, 189, 4);
+}
+
+.porcentagem1 {
     width: 10%;
 }
 
 .porcentagem2 {
-    height: 10px;
-    background-color: green;
     width: 30%;
 }
 
 .porcentagem {
     border-radius: 10px;
-    border: 1px solid gray;
+    border: 1px solid black;
 }
 
 b{
     float: right;
+}
+
+.b-vac1{
+    background-color: rgb(103, 243, 161);
+}
+
+.b-vac2{
+    background-color: rgb(96, 245, 133);
+}
+
+.card{
+    font-size: 10px;
+    width: 20%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.layer2 {
+    display: flex;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 30px;
+}
+
+.b1{
+    background-color: lightblue;
+}
+
+.b2{
+    background-color: lightyellow;
+}
+
+.b3{
+    background-color: lightgrey;
+}
+
+.b4{
+    background-color: lightsteelblue;
 }
