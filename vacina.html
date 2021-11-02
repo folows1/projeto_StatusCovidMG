@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Vacinas</title>
-        <link rel="stylesheet" href="/Css/vacinaPage.css" />
-    </head>
-    <body>
-        <div>
-            <!-- CABEÇALHO -->
-            <img
-                id="LogoSCMG"
-                src="/img/Cabecalho/Layer 1 1.png"
-                alt="LogoSCMG"
-            />
-            <img id="LogoFB" src="/img/Cabecalho/Facebook.png" alt="LogoFB" />
-            <!-- <img id="LogoTwitter" src="/img/Cabecalho/Twitter.png" alt="LogoTwitter">
-            <img id="LogoInsta" src="/img/Cabecalho/instagram 1.png" alt="LogoInsta"> -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vacinas</title>
+    <link rel="stylesheet" href="./Css/vacinaPage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./img/Cabecalho/Triangulo.png">
+</head>
+
+<body>
+    <div class="container">
+        <!-- CABEÇALHO -->
+        <div class="header">
+            <a href="index.html">
+                <img id="logoSCMG" src="./img/Cabecalho/LogoSCMG11.png" alt="LogoSCMG" />
+            </a>  
+            <div id="socialIcons">
+                <img id="logoFB" src="./img/Cabecalho/Facebook.png" alt="LogoFB" />
+                <img id="logoTwitter" src="./img/Cabecalho/Twitter.png" alt="LogoTwitter" />
+                <img id="logoInsta" src="./img/Cabecalho/instagram1.png" alt="LogoInsta" />
+            </div>
         </div>
+
         <!-- CORPO DA PÁGINA -->
         <div id="menuVacinas">
             <ul>
@@ -30,11 +39,11 @@
             </ul>
         </div>
         <div>
-            <img id="vacina" src="/img/VacinaPage/Layer 3 1.png" alt="Vacina" />
+            <img id="vacina" src="./img/VacinaPage/Layer 3 1.png" alt="Vacina" />
         </div>
-        <div>
+        <div class="container_text">
             <h1 id="titulo">CoronaVac</h1>
-            <p id="texto">
+                <p id="texto">
                 Lorem ipsum nulla justo hac torquent rhoncus consequat, nam
                 vitae nisi sodales sit eu, pulvinar nullam est mauris dictumst
                 cras. mollis posuere dui duis odio vel ligula quisque, integer
@@ -62,12 +71,10 @@
         </div>
         <!-- RODAPE -->
         <div id="rodape">
-            <img
-                id="logoUnivas"
-                src="/img/Rodape/univas_white 1.png"
-                alt="logoUnivas"
-            />
+            <img id="logoUnivas" src="./img/Rodape/univas_white 1.png" alt="logoUnivas" />
             <p id="dirAuto">Lorem ipsum rhoncus ipsum laoreet</p>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>

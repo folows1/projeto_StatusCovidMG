@@ -1,42 +1,39 @@
 * {
     margin: 0px;
     padding: 0px;
+    border: 0px;
+    font-family: "Roboto", sans-serif;
 }
 
-/* CABECALHO */
-
-#LogoSCMG {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 20px;
-    top: 15px;
-    background-color: transparent;
+body{
+    background-color: rgb(233, 190, 190);
 }
 
-#LogoFB {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 1200px;
-    top: 30px;
-}
+@media screen and (min-width: 1024px) {
 
-#LogoTwitter {
-    position: absolute;
-    width: auto;
-    height: auto;
-    margin-left: 1250px;
-    margin-top: 30px;
-}
+    /* CABECALHO */
 
-#LogoInsta {
-    position: absolute;
-    width: auto;
-    height: auto;
-    margin-left: 1300px;
-    margin-top: 30px;
-}
+    .container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header {
+        width: 95%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    #socialIcons {
+        margin-top: 10px;
+        float: right;
+    }
+    #logoFB, #logoTwitter, #logoInsta{
+        margin: 0 10px;
+    } 
+
 /* BODY */
 
 #vacina {
@@ -132,4 +129,13 @@
     line-height: 28px;
 
     color: #76000b;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
+
+@media screen and (max-width: 767) {
+    
 }
