@@ -30,7 +30,7 @@ const start = () => {
 }
 
 const preload = () => {
-    readTextFile("../../data/cidades.json", function(text){
+    readTextFile("../data/cidades.json", function(text){
         dados = JSON.parse(text);
         start()
     });
