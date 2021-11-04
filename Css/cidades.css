@@ -17,7 +17,8 @@ body {
     display: block;
 }
 
-#estatisticas, #mapas {
+#estatisticas,
+#mapas {
     width: 50%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -43,7 +44,7 @@ body {
 }
 
 /* COMPUTADOR 1920X1080 */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
     /* CABECALHO */
     .container {
         width: 95%;
@@ -62,37 +63,40 @@ body {
         margin-top: 10px;
         float: right;
     }
-    #LogoFB, #LogoTwitter, #LogoInsta{
+    #LogoFB,
+    #LogoTwitter,
+    #LogoInsta {
         margin: 0 10px;
-    }   
-    
+    }
+
     span {
         font-size: 20px;
     }
-    
+
     select {
         font-size: 26px;
         background-color: rgb(236, 216, 216);
         border-radius: 10px;
         width: 400px;
     }
-    
-    .bloco, .bloco2{
+
+    .bloco,
+    .bloco2 {
         width: 45%;
         display: inline;
         font-weight: 700;
         text-align: center;
         border-radius: 15px;
     }
-    
+
     .bloco {
         float: left;
     }
-    
+
     .bloco2 {
         float: right;
     }
-    
+
     .layer {
         height: 100px;
         width: 95%;
@@ -101,12 +105,12 @@ body {
         padding-bottom: 20px;
         line-height: 50px;
     }
-    
+
     .box {
         background-color: rgb(238, 202, 202, 0.95);
         border-radius: 10px;
     }
-    
+
     .layer-select {
         height: 140px;
         width: 95%;
@@ -115,48 +119,48 @@ body {
         margin-bottom: 20px;
         line-height: 70px;
     }
-    
-    
-    .porcentagem1, .porcentagem2 {
+
+    .porcentagem1,
+    .porcentagem2 {
         transition: width 2s ease 0.5s;
         border-radius: 10px;
         height: 15px;
         background-color: rgb(4, 189, 4);
     }
-    
+
     .porcentagem1 {
         width: 1%;
     }
-    
+
     .porcentagem2 {
         width: 1%;
     }
-    
+
     .porcentagem {
         border-radius: 10px;
         background-color: rgba(125, 143, 125, 0.5);
         border: 1px solid rgb(125, 143, 125);
     }
-    
-    b{
+
+    b {
         float: right;
     }
-    
-    .b-vac1{
+
+    .b-vac1 {
         background-color: rgb(103, 243, 161);
     }
-    
-    .b-vac2{
+
+    .b-vac2 {
         background-color: rgb(96, 245, 133);
     }
-    
-    .card{
+
+    .card {
         font-size: 10px;
         width: 22%;
         text-align: center;
         border-radius: 15px;
     }
-    
+
     .layer2 {
         display: flex;
         width: 95%;
@@ -167,37 +171,33 @@ body {
         height: 80px;
         line-height: 40px;
     }
-    
-    .b1{
+
+    .b1 {
         background-color: lightblue;
     }
-    
-    .b2{
+
+    .b2 {
         background-color: lightyellow;
     }
-    
-    .b3{
+
+    .b3 {
         background-color: lightgrey;
     }
-    
-    .b4{
+
+    .b4 {
         background-color: lightsteelblue;
     }
 
-    .div-graph{
+    .div-graph {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
         padding-bottom: 20px;
         text-align: center;
     }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    
 }
 @media screen and (max-width: 767px) {
-    
 }
-
