@@ -9,6 +9,39 @@ body {
     background-color: rgb(233, 190, 190);
 }
 
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+#estatisticas, #mapas {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tab {
+    cursor: pointer;
+    transition: all ease 0.3s 0.1s;
+}
+
+.tab.active {
+    background-color: rgba(0, 255, 255, 0.438);
+}
+
+.tabs {
+    text-align: center;
+    background-color: aliceblue;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
 /* COMPUTADOR 1920X1080 */
 @media screen and (min-width: 1024px){
     /* CABECALHO */
@@ -65,7 +98,7 @@ body {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         line-height: 50px;
     }
     
@@ -92,11 +125,11 @@ body {
     }
     
     .porcentagem1 {
-        width: 10%;
+        width: 1%;
     }
     
     .porcentagem2 {
-        width: 30%;
+        width: 1%;
     }
     
     .porcentagem {
@@ -149,6 +182,14 @@ body {
     
     .b4{
         background-color: lightsteelblue;
+    }
+
+    .div-graph{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        text-align: center;
     }
 
 }

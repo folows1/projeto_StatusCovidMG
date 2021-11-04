@@ -1,4 +1,21 @@
 let dados
+let index
+const tabs = document.querySelectorAll("[data-tab-target]")
+const tabContents = document.querySelectorAll("[data-tab-content]")
+
+tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+        const target = document.querySelector(tab.dataset.tabTarget)
+        tabContents.forEach((tabContent) => {
+            tabContent.classList.remove("active")
+        })
+        tabs.forEach((tab) => {
+            tab.classList.remove("active")
+        })
+        tab.classList.add("active")
+        target.classList.add("active")
+    })
+})
 
 let totalCasos = document.getElementById("totalCasos")
 let casosAtual = document.getElementById("casosAtual")
@@ -10,39 +27,46 @@ let porcentagem1 = document.getElementById("porcentagem1")
 let porcentagem2 = document.getElementById("porcentagem2")
 let porcentagemTexto = document.getElementById("porcentagemTexto")
 let porcentagem2Texto = document.getElementById("porcentagem2Texto")
+
 const select = document.getElementById("select-cidade")
 
 function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function() {
+    var rawFile = new XMLHttpRequest()
+    rawFile.overrideMimeType("application/json")
+    rawFile.open("GET", file, true)
+    rawFile.onreadystatechange = function () {
         if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
+            callback(rawFile.responseText)
         }
     }
-    rawFile.send(null);
+    rawFile.send(null)
 }
 
 const start = () => {
-    changeFront(0)
+    index = 0
+    changeFront(index)
     select.onchange = handleChange
 }
 
 const preload = () => {
     console.log("start")
-    readTextFile("./data/cidades.json", function(text){
-        dados = JSON.parse(text);
+    readTextFile("./data/cidades.json", function (text) {
+        dados = JSON.parse(text)
         start()
-    });
+    })
 }
 
 const handleChange = () => {
     if (select.value === "Pouso Alegre") {
-        changeFront(0)
+        index = 0
     } else if (select.value === "Cachoeira de Minas") {
-        changeFront(1)
+        index = 1
+    } else if (select.value === "Santa Rita do Sapucaí") {
+        index = 2
+    } else if (select.value === "Paraisópolis") {
+        index = 3
     }
+    changeFront(index)
 }
 
 const changeFront = (index) => {
