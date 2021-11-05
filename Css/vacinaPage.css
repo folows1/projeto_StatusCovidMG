@@ -36,6 +36,49 @@ body{
 
 /* BODY */
 
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.tab{
+    cursor: pointer;
+}
+
+.tab.active{
+    text-decoration: underline;
+}
+
+.tab:hover{
+    background-color: #AAA;
+}
+
+.tab-content{
+    display: flex;
+    float: right;
+    text-align: center;
+}
+
+#retangle{
+    display: flex;
+    float: right;
+    width: 719px;
+    height: 760px;
+    left: 675px;
+    top: 141px;
+    background: rgba(178, 200, 228, 0.33);
+    border-radius: 50px;
+}
+
 #vacina {
     position: absolute;
     background-color: transparent;
@@ -45,91 +88,30 @@ body{
     left: 80px;
 }
 
-#titulo {
-    position: absolute;
-    width: 240px;
-    height: 60px;
-    left: 900px;
-    top: 150px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 55px;
-    color: #76000b;
-}
-
-#texto {
-    position: absolute;
-    width: 700px;
-    height: 670px;
-    left: 680px;
-    top: 240px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-
-    color: #76000b;
-}
-
-/* RODAPE */
+    /* RODAPE */
 #rodape {
-    position: absolute;
-    width: 1440px;
-    height: 100px;
-    left: 0px;
-    top: 921px;
-    background: #9b000f;
-}
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+        background: #9b000f;
+    }
 
 #logoUnivas {
-    background: transparent;
-    position: absolute;
-    width: 95px;
-    height: 20px;
-    left: 40px;
-    top: 25px;
+    display: inline;
+    float: left;
+    margin: 12.5px 20px ;
+
 }
 
 #dirAuto {
-    background: transparent;
-    position: absolute;
-    width: 385;
-    height: 30;
-    left: 1000;
-    top: 25px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25;
-    line-height: 28px;
-    color: #ffffff;
-}
-#menuVacinas {
-    margin: 100px 300px;
-}
-
-#menuVacinas ul {
-    list-style-type: none;
-}
-
-#menuVacinas li {
     display: inline;
-    padding: 50px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-
-    color: #76000b;
+    float: right;
+    margin: 10px 20px;    
+    font-size: 20px;
+    color: #ffffff;
     }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
