@@ -43,6 +43,16 @@ body {
     margin-bottom: 40px;
 }
 
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    /* The width is the width of the web page */
+  }
+
 /* COMPUTADOR 1920X1080 */
 @media screen and (min-width: 1024px) {
     /* CABECALHO */
