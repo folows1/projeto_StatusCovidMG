@@ -17,6 +17,7 @@ tabs.forEach((tab) => {
     })
 })
 
+let graphImg = document.getElementById("grafico")
 let totalCasos = document.getElementById("totalCasos")
 let casosAtual = document.getElementById("casosAtual")
 let primeiraDose = document.getElementById("primeiraDose")
@@ -27,6 +28,7 @@ let porcentagem1 = document.getElementById("porcentagem1")
 let porcentagem2 = document.getElementById("porcentagem2")
 let porcentagemTexto = document.getElementById("porcentagemTexto")
 let porcentagem2Texto = document.getElementById("porcentagem2Texto")
+let li = document.getElementById("spot-ul")
 
 const select = document.getElementById("select-cidade")
 
@@ -70,6 +72,7 @@ const handleChange = () => {
 }
 
 const changeFront = (index) => {
+    li.innerHTML = ""
     let dadosCidade = dados[index]
     console.log(dadosCidade)
     totalCasos.innerHTML = dadosCidade.totalCasos
@@ -82,6 +85,42 @@ const changeFront = (index) => {
     porcentagemTexto.innerHTML = dadosCidade.p1
     porcentagem2.style.width = dadosCidade.p2
     porcentagem2Texto.innerHTML = dadosCidade.p2
+    changeSpots(dadosCidade)
+    changeGraph(dadosCidade)
+}
+
+const changeSpots = (dadosCidade) => {
+    dadosCidade.spots.forEach((spot) => {
+        let itemName = document.createElement("li")
+        let itemRua = document.createElement("li")
+        let itemCep = document.createElement("li")
+
+        let link = document.createElement("a")
+        link.href = spot.link
+        link.target = "_blank"
+        link.classList.add("a-block")
+
+        let divLink = document.createElement("div")
+        divLink.classList.add("div-link")
+
+        itemName.textContent = spot.nome
+        itemRua.textContent = spot.rua
+        itemCep.textContent = spot.cep
+
+        itemName.classList.add("li-name")
+        itemRua.classList.add("li-rua")
+        itemCep.classList.add("li-cep")
+
+        divLink.appendChild(itemName)
+        divLink.appendChild(itemRua)
+        divLink.appendChild(itemCep)
+        link.appendChild(divLink)
+        li.appendChild(link)
+    })
+}
+
+const changeGraph = (dadosCidade) => {
+    graphImg.src = dadosCidade.paths[0].graphTotal
 }
 
 preload()

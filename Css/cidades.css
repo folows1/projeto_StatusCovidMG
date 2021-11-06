@@ -9,6 +9,39 @@ body {
     background-color: rgb(233, 190, 190);
 }
 
+ul {
+    list-style: none;
+}
+
+.a-block {
+    text-decoration: none;
+    text-align: center;
+}
+
+.div-link{
+    display: inline-block;
+    width: 320px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    background-color: rgb(197, 224, 248);
+    border-radius: 10px;
+}
+
+.li-name, .li-rua{
+    padding-bottom: 5px;
+}
+
+.div-link:hover{
+    background-color: rgb(146, 196, 243);
+    transition: all ease 0.5s;
+}
+
 [data-tab-content] {
     display: none;
 }
@@ -43,15 +76,15 @@ body {
     margin-bottom: 40px;
 }
 
-#map {
-    height: 400px;
+#layer-spot {
     /* The height is 400 pixels */
     width: 95%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 40px;
+    text-align: center;
     /* The width is the width of the web page */
-  }
+}
 
 /* COMPUTADOR 1920X1080 */
 @media screen and (min-width: 1024px) {

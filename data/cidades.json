@@ -9,7 +9,50 @@
         "totalVacinados": 83943,
         "letalidade": "1.83%",
         "p1": "78%",
-        "p2": "10%"
+        "p2": "10%",
+        "spots": [
+            {
+                "nome": "PSF FAISQUEIRA PAO DE AÇUCAR",
+                "rua": "RUA APARECIDA COSTA CURIEL",
+                "cep": "37555-264",
+                "link": "https://www.google.com/maps/place/Pão+De+Açucar/@-22.2088483,-45.911762,17z/data=!3m1!4b1!4m5!3m4!1s0x94cbc7f0a727ea27:0x26f38710e1184ed2!8m2!3d-22.2088483!4d-45.9095733"
+            },
+            {
+                "nome": "Puericultura",
+                "rua": "RUA ADOLFO OLINTO 480",
+                "cep": "37550-97",
+                "link": "https://www.google.com/maps/place/Puericultura/@-22.2299222,-45.9348636,17z/data=!4m9!1m2!2m1!1sPuericultura!3m5!1s0x94cbc7448d5a69ff:0xee88b9b5d31a6a2b!8m2!3d-22.2301321!4d-45.9355272!15sCgxQdWVyaWN1bHR1cmGSARdjb21tdW5pdHlfaGVhbHRoX2NlbnRlcg"
+            },
+            {
+                "nome": "UBS COLINA STA BARBARA",
+                "rua": "RUA YEDA MARIA MACHADO 95",
+                "cep": "37551-242",
+                "link": "https://www.google.com/maps/place/R.+Yêda+Maria+Machado,+95+-+Colina+de+Santa+Barbara,+Pouso+Alegre+-+MG,+37550-000/data=!4m2!3m1!1s0x94cbc635d92c5dab:0x2e0fb87cb67a44b1?sa=X&ved=2ahUKEwiKu6yTtIL0AhWWq5UCHURICbMQ8gF6BAgPEAE"
+            },
+            {
+                "nome": "UBS SEBASTIAO REIS DA SILVA",
+                "rua": "RUA AURELIANO REZENDE COUTINHO",
+                "cep": "37550-468",
+                "link": "https://www.google.com/maps?q=RUA+AURELIANO+REZENDE+COUTINHO&client=opera-gx&hs=o2r&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHkoECEEYAFAAWNgBYOtFaAFwAHgAgAGPAYgBkwKSAQMwLjKYAQCgAQHAAQE&uact=5&um=1&ie=UTF-8&sa=X&ved=2ahUKEwjikd-gtIL0AhVKrZUCHWx1DsUQ_AUoAXoECAEQAw"
+            },
+            {
+                "nome": "UBS CIDADE JARDIMDR JESUS R PIRES",
+                "rua": "RUA JOAO LARAIA 255",
+                "cep": "37556-674",
+                "link": "https://www.google.com/maps/place/R.+João+Laraia,+255+-+Cidade+Jardim,+Pouso+Alegre+-+MG,+37556-674/data=!4m2!3m1!1s0x94cbb9212df041f3:0x8242f41320d79b75?sa=X&ved=2ahUKEwi_gbKotIL0AhXVrpUCHTWyCKgQ8gF6BAgPEAE"
+            },
+            {
+                "nome": "UBS SAO CRISTOVAO JD BRASIL",
+                "rua": "RUA JOSE EXPEDITO DE CARVALHO 95",
+                "cep": "37560-214",
+                "link": "https://www.google.com/maps/place/R.+José+Expedito+de+Carvalho,+95+-+Jardim+Aeroporto,+Pouso+Alegre+-+MG,+37550-000/data=!4m2!3m1!1s0x94cbc0b5fa173903:0xc0b5e05bfe7254d1?sa=X&ved=2ahUKEwjqsfaxtIL0AhXbq5UCHQ34DHoQ8gF6BAgOEAE"
+            }
+        ],
+        "paths": [
+            { "graphTotal": "./data/graficos/PousoAlegre/1.png" },
+            { "graphAtual": "./data/graficos/PousoAlegre/2.jpg" },
+            { "graphMortes": "./data/graficos/PousoAlegre/3.jpg" }
+        ]
     },
     {
         "nome": "Cidade 2",
