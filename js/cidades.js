@@ -139,4 +139,3 @@ const changeGraph = (indexImg) => {
 }
 
 preload()
-

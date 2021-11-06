@@ -18,11 +18,11 @@ ul {
     text-align: center;
 }
 
-.card:hover{
-    cursor: pointer
+.card:hover {
+    cursor: pointer;
 }
 
-.div-link{
+.div-link {
     display: inline-block;
     width: 330px;
     margin-left: 15px;
@@ -37,11 +37,12 @@ ul {
     border-radius: 10px;
 }
 
-.li-name, .li-rua{
+.li-name,
+.li-rua {
     padding-bottom: 5px;
 }
 
-.div-link:hover{
+.div-link:hover {
     background-color: rgb(146, 196, 243);
     transition: all ease 0.5s;
 }
