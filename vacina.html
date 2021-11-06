@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./Css/vacinaPage.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" href="./img/Cabecalho/Triangulo.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=poppins&display=swap">
     <script src="/js/vacina.js" defer></script>
 </head>
 
@@ -30,8 +30,8 @@
         </div>
 
         <!-- CORPO DA PÁGINA -->
-
         <ul class="tabs">
+        
             <li data-tab-target="#Pfizer" class="active tab">Pfizer</li>
             <li data-tab-target="#CoronaVac" class="tab">CoronaVac</li>
             <li data-tab-target="#Johnson" class="tab">Johnson & Johnson</li>
@@ -43,10 +43,11 @@
         <div class="tab-content">
             <div class="content-left">
                 <div id="Pfizer" data-tab-content class="active">
-                    <h1>Pfizer</h1>
-                    <p>Lorem ipsum congue ante lobortis cursus maecenas tempus tellus
-                        senectus habitasse venenatis, enim a fringilla mattis neque nunc
-                        odio ut ultricies habitasse, luctus tristique class luctus
+                    <div id="texto">
+                        <h1>Pfizer</h1>
+                        <p>Lorem ipsum congue ante lobortis cursus maecenas tempus tellus
+                            senectus habitasse venenatis, enim a fringilla mattis neque nunc
+                            odio ut ultricies habitasse, luctus tristique class luctus
                         eleifend aliquam lacus sollicitudin vel quis. <br />
                         eros consequat ut placerat hac potenti leo euismod convallis mi
                         interdum bibendum, et lacus lobortis morbi mi neque a lacinia
@@ -54,6 +55,7 @@
                         sem erat massa arcu aptent auctor ante, lacus praesent euismod
                         vivamus mattis, primis diam pellentesque etiam vivamus.
                     </p>
+                </div>
                     <img  src="./img/VacinaPage/Layer 3 1.png" alt="Vacina" />
                 </div>
                 <div id="CoronaVac" data-tab-content>
@@ -108,7 +110,7 @@
                     </p>
                 </div>
             </div>
-                <div class="content-right">
+                <!-- <div class="content-right">
                     <div id="Pfizer" data-tab-content-img class="active">
                     <img src="./img/VacinaPage/Layer 3 1.png" alt="Vacina" />
                 </div>
@@ -124,7 +126,7 @@
                 <div id="Sputnik" data-tab-content-img>
                     <img src="./img/Cabecalho/Triangulo.png" alt="Vacina" />
                 </div>
-            </div>
+            </div> -->
         </div>
 
 

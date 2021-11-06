@@ -45,8 +45,6 @@ body{
     display: block;
 }
 
-
-
 .tabs{
     display: flex;
     justify-content: space-around;
@@ -77,14 +75,9 @@ body{
     margin: 5% auto;
 }
 
-.content-left h1, p{
-    flex-basis: 50%;
+#texto{
+    width: 50%;
 }
-
- .content-left img{
-     flex-basis: 50%;
-     float: right;
- }
 
 .content-left p {
     text-align: left;
@@ -95,6 +88,11 @@ body{
     font-size: 55px;    
     padding: 30px 0px;
 
+}
+
+.content-left img{
+    display: flex;
+    float: right;
 }
 
 
