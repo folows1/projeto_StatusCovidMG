@@ -1,15 +1,14 @@
 [
     {
         "nome": "Pouso Alegre",
-        "totalCasos": 1,
-        "totalObitos": 1,
-        "totalRecuperados": 24153,
-        "casosAcompanhamento": 1,
-        "totalPrimeiraDose": 120626,
-        "totalVacinados": 83943,
-        "letalidade": "1.83%",
-        "p1": "78%",
-        "p2": "10%",
+        "totalCasos": 24.381,
+        "totalObitos": 470,
+        "casosAcompanhamento": 53,
+        "totalPrimeiraDose": 121.993,
+        "totalVacinados": 94.744,
+        "letalidade": "1,9%",
+        "p1": "80.64%",
+        "p2": "62.63%",
         "spots": [
             {
                 "nome": "PSF FAISQUEIRA PAO DE AÇUCAR",
@@ -49,21 +48,123 @@
             }
         ],
         "paths": [
-            { "graphTotal": "./data/graficos/PousoAlegre/1.png" },
-            { "graphAtual": "./data/graficos/PousoAlegre/2.jpg" },
-            { "graphMortes": "./data/graficos/PousoAlegre/3.jpg" }
+            { "graph": "./data/graficos/PousoAlegre/1.png" },
+            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
+            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
         ]
     },
     {
-        "nome": "Cidade 2",
-        "totalCasos": 2,
-        "totalObitos": 2,
-        "totalRecuperados": 24153,
+        "nome": "Cachoeira de Minas",
+        "totalCasos": 1.113,
+        "totalObitos": 19,
+        "casosAcompanhamento": 5,
+        "totalPrimeiraDose": 9.079,
+        "totalVacinados": 7.141,
+        "letalidade": "1,71%",
+        "p1": "78.14%",
+        "p2": "61.46%",
+        "spots": [
+            {
+                "nome": "UNIDADE DE SAUDE DA FAMILIA",
+                "rua": "RUA OLIVEIRA COBRA 433",
+                "cep": "37545-000",
+                "link": "https://www.google.com/maps/place/R.+Oliveira+Cobra,+433+-+Cachoeira+De+Minas,+Cachoeira+de+Minas+-+MG,+37545-000/data=!4m2!3m1!1s0x94cb9710210192b3:0x90d487d4a5a0f42?sa=X&ved=2ahUKEwi09ufi0YL0AhW_rJUCHR6dAugQ8gF6BAgPEAE"
+            },
+            {
+                "nome": "UBS DE CACHOEIRA DE MINAS",
+                "rua": "RUA MARIA RITA DE FARIA 157",
+                "cep": "37545-000",
+                "link": "https://www.google.com/maps/place/R.+Maria+Rita+De+Faria,+157+-+Cachoeira+De+Minas,+Cachoeira+de+Minas+-+MG,+37545-000/data=!4m2!3m1!1s0x94cb97114e101c7f:0x3fc38b867d4f427a?sa=X&ved=2ahUKEwiFs56E0oL0AhWHr5UCHVc0CvkQ8gF6BAgTEAE"
+            }
+        ],
+        "paths": [
+            { "graph": "./data/graficos/PousoAlegre/1.png" },
+            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
+            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+        ]
+    },
+    {
+        "nome": "Santa Rita do Sapucaí",
+        "totalCasos": 4.427,
+        "totalObitos": 85,
         "casosAcompanhamento": 2,
-        "totalPrimeiraDose": 120626,
-        "totalVacinados": 83943,
-        "letalidade": "2.83%",
-        "p1": "98%",
-        "p2": "50%"
+        "totalPrimeiraDose": 32.073,
+        "totalVacinados": 27.419,
+        "letalidade": "1,83%",
+        "p1": "72.85%",
+        "p2": "62.27%",
+        "spots": [
+            {
+                "nome": "UBS IRMA EUDOXIA - PSF 01",
+                "rua": "RUA DAS HORTENCIAS 9090",
+                "cep": "37540-000",
+                "link": "https://www.google.com/maps/place/R.+das+Hortências,+Santa+Rita+do+Sapucaí+-+MG,+37540-000/@-22.2249815,-45.7201947,17z/data=!3m1!4b1!4m5!3m4!1s0x94cba37444a1c1b1:0xff4874bec64f1e60!8m2!3d-22.2249815!4d-45.718006"
+            },
+            {
+                "nome": "PSF 02",
+                "rua": "RUA DOS GIRASSOIS",
+                "cep": "37540-000",
+                "link": "https://www.google.com/maps/place/R.+dos+Girassóis,+Santa+Rita+do+Sapucaí+-+MG,+37540-000/@-22.2242603,-45.7204818,17z/data=!3m1!4b1!4m5!3m4!1s0x94cba3743dffb26d:0x1a1d8ee1bcf7bb1a!8m2!3d-22.2242603!4d-45.7182931"
+            },
+            {
+                "nome": "PSF 03",
+                "rua": "RUA PROJETADA 2",
+                "cep": "37540-000",
+                "link": "https://www.google.com/maps/place/R.+Projetada+e,+2+-+Fernandes/@-22.242323,-45.7175037,18.25z/data=!4m5!1m2!2m1!1sRUA+PROJETADA+2+MARIA+SILVERIO+SANTA+RITA+DO+SAPUCAÍ!3m1!1s0x94cba300c8977ca9:0xa66555bc2ccfab65"
+            },
+            {
+                "nome": "PSF 04",
+                "rua": "RUA CRESCENCIO RIBEIRO",
+                "cep": "37540-000",
+                "link": "https://www.google.com/search?client=opera-gx&tbs=lf:1,lf_ui:2&tbm=lcl&q=RUA+CRESCENCIO+RIBEIRO+MARIA+SILVERIO+|+SANTA+RITA+DO+SAPUCAÍ&rflfq=1&num=10&ved=2ahUKEwjt-5uQ1YL0AhU1K7kGHYQsA2kQtgN6BAgPEAQ#rlfi=hd:;si:;mv:[[-22.24236111776613,-45.7038046285453],[-22.24640774372286,-45.711631314450756],null,[-22.244384445355944,-45.70771797149803],18]"
+            },
+            {
+                "nome": "PSF 05",
+                "rua": "RUA DEODATO SEDA 453",
+                "cep": "37540-000",
+                "link": "https://www.google.com/maps/place/R.+Deodato+Seda,+453+-+Santa+Rita+Do+Sapucai,+Santa+Rita+do+Sapucaí+-+MG,+37540-000/@-22.243896,-45.7115697,17z/data=!3m1!4b1!4m5!3m4!1s0x94cba3aca9b729db:0x55ec28a54e0383d8!8m2!3d-22.243896!4d-45.709381"
+            },
+            {
+                "nome": "PSF 06",
+                "rua": "RUA CORONEL JOAQUIM NETO 264",
+                "cep": "37540-000",
+                "link": "https://www.google.com/maps/place/R.+Cel.+Joaquim+Neto,+264+-+Centro,+Santa+Rita+do+Sapucaí+-+MG,+37540-000/data=!4m2!3m1!1s0x94cba2502ad5fe1f:0xbbc5420dfba178c4?sa=X&ved=2ahUKEwiA68u51oL0AhVQIrkGHackAdIQ8gF6BAgPEAE"
+            },
+            {
+                "nome": "PSF 07",
+                "rua": "AV ANTONIO CAPISTRANO DE ALCKMIN",
+                "cep": "37540-000",
+                "link": "https://www.google.com/maps/place/PSF+07+-+Posto+de+Saude/@-22.2553275,-45.6942645,15z/data=!4m2!3m1!1s0x0:0x2528d6d1452c6b76?sa=X&ved=2ahUKEwix1JPX1oL0AhX-GbkGHSKaC1QQ_BJ6BAg9EAU"
+            }
+        ],
+        "paths": [
+            { "graph": "./data/graficos/PousoAlegre/1.png" },
+            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
+            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+        ]
+    },
+    {
+        "nome": "Paraisópolis",
+        "totalCasos": 2.094,
+        "totalObitos": 59,
+        "casosAcompanhamento": 4,
+        "totalPrimeiraDose": 15160,
+        "totalVacinados": 13100,
+        "letalidade": "2,81%",
+        "p1": "70.20%",
+        "p2": "53.63%",
+        "spots": [
+            {
+                "nome": "POLICLINICA MUNICIPAL",
+                "rua": "AV JOSE PEREIRA DE SOUZA DIAS 181",
+                "cep": "37660-000",
+                "link": "https://www.google.com/maps/place/Av.+José+Pereira+de+Souza+Dias,+181,+Paraisópolis+-+MG,+37660-000/data=!4m2!3m1!1s0x94cb88f2591a5907:0xf337c7061f9e7708?sa=X&ved=2ahUKEwjVtbGh2oL0AhVZlJUCHeYzC-kQ8gF6BAgQEAE"
+            }
+        ],
+        "paths": [
+            { "graph": "./data/graficos/PousoAlegre/1.png" },
+            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
+            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+        ]
     }
 ]

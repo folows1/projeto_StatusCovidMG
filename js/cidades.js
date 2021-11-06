@@ -1,5 +1,6 @@
 let dados
 let index
+let dadosCidade
 const tabs = document.querySelectorAll("[data-tab-target]")
 const tabContents = document.querySelectorAll("[data-tab-content]")
 
@@ -17,6 +18,9 @@ tabs.forEach((tab) => {
     })
 })
 
+let b1 = document.querySelector(".b1")
+let b2 = document.querySelector(".b2")
+let b3 = document.querySelector(".b3")
 let graphImg = document.getElementById("grafico")
 let totalCasos = document.getElementById("totalCasos")
 let casosAtual = document.getElementById("casosAtual")
@@ -48,6 +52,15 @@ const start = () => {
     index = 0
     changeFront(index)
     select.onchange = handleChange
+    b1.onclick = () => {
+        changeGraph(0)
+    }
+    b2.onclick = () => {
+        changeGraph(1)
+    }
+    b3.onclick = () => {
+        changeGraph(2)
+    }
 }
 
 const preload = () => {
@@ -72,8 +85,9 @@ const handleChange = () => {
 }
 
 const changeFront = (index) => {
+    graphImg.src = ""
     li.innerHTML = ""
-    let dadosCidade = dados[index]
+    dadosCidade = dados[index]
     console.log(dadosCidade)
     totalCasos.innerHTML = dadosCidade.totalCasos
     casosAtual.innerHTML = dadosCidade.casosAcompanhamento
@@ -85,11 +99,11 @@ const changeFront = (index) => {
     porcentagemTexto.innerHTML = dadosCidade.p1
     porcentagem2.style.width = dadosCidade.p2
     porcentagem2Texto.innerHTML = dadosCidade.p2
-    changeSpots(dadosCidade)
-    changeGraph(dadosCidade)
+    changeSpots()
+    changeGraph(0)
 }
 
-const changeSpots = (dadosCidade) => {
+const changeSpots = () => {
     dadosCidade.spots.forEach((spot) => {
         let itemName = document.createElement("li")
         let itemRua = document.createElement("li")
@@ -119,8 +133,10 @@ const changeSpots = (dadosCidade) => {
     })
 }
 
-const changeGraph = (dadosCidade) => {
-    graphImg.src = dadosCidade.paths[0].graphTotal
+const changeGraph = (indexImg) => {
+    console.log("img")
+    graphImg.src = dadosCidade.paths[indexImg].graph
 }
 
 preload()
+
