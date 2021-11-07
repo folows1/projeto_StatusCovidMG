@@ -7,6 +7,8 @@
 
 body {
     background-color: rgb(233, 190, 190);
+    /* background-image: url(/img/Shape\ 2.png); */
+    
 }
 
 ul {
@@ -23,6 +25,7 @@ ul {
 }
 
 .div-link {
+    text-align: left;
     display: inline-block;
     width: 330px;
     margin-left: 15px;
@@ -32,18 +35,20 @@ ul {
     padding-top: 15px;
     font-size: 14px;
     font-weight: 500;
-    color: rgb(61, 61, 61);
-    background-color: rgb(197, 224, 248);
+    color: white;
+    background-color: #d87878;
     border-radius: 10px;
 }
 
 .li-name,
-.li-rua {
+.li-rua,
+.li-cep {
     padding-bottom: 5px;
+    margin-left: 10px;
 }
 
 .div-link:hover {
-    background-color: rgb(146, 196, 243);
+    background-color: #EF9797;
     transition: all ease 0.5s;
 }
 
@@ -68,12 +73,12 @@ ul {
 }
 
 .tab.active {
-    background-color: rgba(0, 255, 255, 0.438);
+    text-decoration: underline;
 }
 
 .tabs {
+    color: #76000B;
     text-align: center;
-    background-color: aliceblue;
     width: 95%;
     display: flex;
     margin-left: auto;
@@ -122,10 +127,13 @@ ul {
     }
 
     select {
+        color: #76000B;
         font-size: 26px;
-        background-color: rgb(236, 216, 216);
+        background-color: transparent;
+        /* background-color: rgb(236, 216, 216); */
         border-radius: 10px;
-        width: 400px;
+        width: 300px;
+        cursor: pointer;
     }
 
     .bloco,
@@ -166,6 +174,7 @@ ul {
         margin-right: auto;
         margin-bottom: 20px;
         line-height: 70px;
+        color: #76000B;
     }
 
     .porcentagem1,
@@ -173,7 +182,7 @@ ul {
         transition: width 2s ease 0.5s;
         border-radius: 10px;
         height: 15px;
-        background-color: rgb(4, 189, 4);
+        background-color: #76000B;
     }
 
     .porcentagem1 {
@@ -186,8 +195,8 @@ ul {
 
     .porcentagem {
         border-radius: 10px;
-        background-color: rgba(125, 143, 125, 0.5);
-        border: 1px solid rgb(125, 143, 125);
+        background-color: #ED8989;
+        border: 1px solid #4b1a1a31;
     }
 
     b {
@@ -195,11 +204,11 @@ ul {
     }
 
     .b-vac1 {
-        background-color: rgb(103, 243, 161);
+        background-color: #EF9797;
     }
 
     .b-vac2 {
-        background-color: rgb(96, 245, 133);
+        background-color: #EF9797;
     }
 
     .card {
@@ -221,19 +230,19 @@ ul {
     }
 
     .b1 {
-        background-color: lightblue;
+        background-color: #EF9797;
     }
 
     .b2 {
-        background-color: lightyellow;
+        background-color: #EF9797;
     }
 
     .b3 {
-        background-color: lightgrey;
+        background-color: #EF9797;
     }
 
     .b4 {
-        background-color: lightsteelblue;
+        background-color: #EF9797;
     }
 
     .div-graph {

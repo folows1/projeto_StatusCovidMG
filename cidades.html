@@ -1,132 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Status Cidades</title>
-        <link rel="stylesheet" href="./Css/cidades.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            href="./img/Cabecalho/Triangulo.png"
-        />
-    </head>
 
-    <body>
-        <div class="container">
-            <div class="header">
-                <a href="index.html">
-                    <img
-                        id="LogoSCMG"
-                        src="./img/Cabecalho/LogoSCMG11.png"
-                        alt="LogoSCMG"
-                /></a>
-                <div id="social">
-                    <img
-                        id="LogoFB"
-                        src="./img/Cabecalho/Facebook.png"
-                        alt="LogoFB"
-                    />
-                    <img
-                        id="LogoTwitter"
-                        src="./img/Cabecalho/Twitter.png"
-                        alt="LogoTwitter"
-                    />
-                    <img
-                        id="LogoInsta"
-                        src="./img/Cabecalho/instagram1.png"
-                        alt="LogoInsta"
-                    />
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Status Cidades</title>
+    <link rel="stylesheet" href="./Css/cidades.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./img/Cabecalho/Triangulo.png" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+                <img id="LogoSCMG" src="./img/Cabecalho/LogoSCMG11.png" alt="LogoSCMG" /></a>
+            <div id="social">
+                <img id="LogoFB" src="./img/Cabecalho/Facebook.png" alt="LogoFB" />
+                <img id="LogoTwitter" src="./img/Cabecalho/Twitter.png" alt="LogoTwitter" />
+                <img id="LogoInsta" src="./img/Cabecalho/instagram1.png" alt="LogoInsta" />
+            </div>
+        </div>
+        <div class="box">
+            <div class="layer-select">
+                <!-- <h2 class="label">
+                        Escolha uma cidade: <b>Última Atualização: 30/10/21</b>
+                    </h2> -->
+                <select id="select-cidade">
+                    <option id="op1">Pouso Alegre</option>
+                    <option id="op2">Cachoeira de Minas</option>
+                    <option id="op3">Santa Rita do Sapucaí</option>
+                    <option id="op4">Paraisópolis</option>
+                </select>
+                <h3>
+                    Última Atualização: 30/10/21
+                </h3>
+            </div>
+            <div class="tabs">
+                <div id="estatisticas" data-tab-target="#stats" class="active tab">
+                    <h3>Estatísticas</h3>
+                </div>
+                <div id="mapas" data-tab-target="#maps" class="tab">
+                    <h3>Locais de Vacinação</h3>
                 </div>
             </div>
-            <div class="box">
-                <div class="layer-select">
-                    <h2 class="label">
-                        Escolha uma cidade: <b>Última Atualização: 30/10/21</b>
+            <div id="stats" data-tab-content class="active">
+                <div class="layer">
+                    <div class="bloco b-vac1">
+                        <h2>Vacinados 1ª Dose</h2>
+                        <span id="primeiraDose">0</span>
+                    </div>
+                    <div class="bloco2 b-vac2">
+                        <h2>Vacinados 2ª Dose e Dose única</h2>
+                        <span id="totalVacinados">0</span>
+                    </div>
+                </div>
+                <div class="layer">
+                    <h2>% Primeira Dose<b id="porcentagemTexto">0%</b></h2>
+                    <div class="porcentagem">
+                        <div class="porcentagem1" id="porcentagem1"></div>
+                    </div>
+                </div>
+                <div class="layer">
+                    <h2>
+                        % Segunda Dose e Dose Única<b id="porcentagem2Texto">0%</b>
                     </h2>
-                    <select id="select-cidade">
-                        <option id="op1">Pouso Alegre</option>
-                        <option id="op2">Cachoeira de Minas</option>
-                        <option id="op3">Santa Rita do Sapucaí</option>
-                        <option id="op4">Paraisópolis</option>
-                    </select>
-                </div>
-                <div class="tabs">
-                    <div
-                        id="estatisticas"
-                        data-tab-target="#stats"
-                        class="active tab"
-                    >
-                        <h3>Estatísticas</h3>
-                    </div>
-                    <div id="mapas" data-tab-target="#maps" class="tab">
-                        <h3>Locais de Vacinação</h3>
+                    <div class="porcentagem">
+                        <div class="porcentagem2" id="porcentagem2"></div>
                     </div>
                 </div>
-                <div id="stats" data-tab-content class="active">
-                    <div class="layer">
-                        <div class="bloco b-vac1">
-                            <h2>Vacinados 1ª Dose</h2>
-                            <span id="primeiraDose">0</span>
-                        </div>
-                        <div class="bloco2 b-vac2">
-                            <h2>Vacinados 2ª Dose e Dose única</h2>
-                            <span id="totalVacinados">0</span>
-                        </div>
+                <div class="layer2">
+                    <div class="card b1">
+                        <h2>Total de Casos</h2>
+                        <span id="totalCasos">0</span>
                     </div>
-                    <div class="layer">
-                        <h2>% Primeira Dose<b id="porcentagemTexto">0%</b></h2>
-                        <div class="porcentagem">
-                            <div class="porcentagem1" id="porcentagem1"></div>
-                        </div>
+                    <div class="card b2">
+                        <h2>Casos em Acompanhamento</h2>
+                        <span id="casosAtual">0</span>
                     </div>
-                    <div class="layer">
-                        <h2>
-                            % Segunda Dose e Dose Única<b id="porcentagem2Texto"
-                                >0%</b
-                            >
-                        </h2>
-                        <div class="porcentagem">
-                            <div class="porcentagem2" id="porcentagem2"></div>
-                        </div>
+                    <div class="card b3">
+                        <h2>Total de Óbitos</h2>
+                        <span id="totalMortes">0</span>
                     </div>
-                    <div class="layer2">
-                        <div class="card b1">
-                            <h2>Total de Casos</h2>
-                            <span id="totalCasos">0</span>
-                        </div>
-                        <div class="card b2">
-                            <h2>Casos em Acompanhamento</h2>
-                            <span id="casosAtual">0</span>
-                        </div>
-                        <div class="card b3">
-                            <h2>Total de Óbitos</h2>
-                            <span id="totalMortes">0</span>
-                        </div>
-                        <div class="card b4">
-                            <h2>Letalidade</h2>
-                            <span id="letalidade">0</span>
-                        </div>
-                    </div>
-                    <div class="div-graph">
-                        <img src="" alt="grafico" id="grafico" />
+                    <div class="card b4">
+                        <h2>Letalidade</h2>
+                        <span id="letalidade">0</span>
                     </div>
                 </div>
-                <div id="maps" data-tab-content>
-                    <div id="layer-spot">
-                        <ul id="spot-ul"></ul>
-                    </div>
+                <div class="div-graph">
+                    <img src="" alt="grafico" id="grafico" />
+                </div>
+            </div>
+            <div id="maps" data-tab-content>
+                <div id="layer-spot">
+                    <ul id="spot-ul"></ul>
+                    <!-- <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.534100737374!2d-45.91812848552594!3d-22.219805319302765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cbc7ecd011741d%3A0x9d3b57191a6b18bb!2sUniversidade%20do%20Vale%20do%20Sapuca%C3%AD%20Unidade%20F%C3%A1tima!5e0!3m2!1spt-BR!2sbr!4v1636304313823!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
                 </div>
             </div>
         </div>
-        <script src="./data/cidades.json"></script>
-        <script src="./js/cidades.js"></script>
-    </body>
+    </div>
+    <script src="./data/cidades.json"></script>
+    <script src="./js/cidades.js"></script>
+</body>
+
 </html>
