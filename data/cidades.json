@@ -49,8 +49,8 @@
         ],
         "paths": [
             { "graph": "./data/graficos/PousoAlegre/1.png" },
-            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
-            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+            { "graph": "./data/graficos/PousoAlegre/2.png" },
+            { "graph": "./data/graficos/PousoAlegre/3.png" }
         ]
     },
     {
@@ -78,9 +78,9 @@
             }
         ],
         "paths": [
-            { "graph": "./data/graficos/PousoAlegre/1.png" },
-            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
-            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+            { "graph": "./data/graficos/CachoeiradeMinas/1.png" },
+            { "graph": "./data/graficos/CachoeiradeMinas/2.png" },
+            { "graph": "./data/graficos/CachoeiradeMinas/3.png" }
         ]
     },
     {
@@ -138,9 +138,9 @@
             }
         ],
         "paths": [
-            { "graph": "./data/graficos/PousoAlegre/1.png" },
-            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
-            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+            { "graph": "./data/graficos/SanataRitadoSapucai/1.png" },
+            { "graph": "./data/graficos/SanataRitadoSapucai/2.png" },
+            { "graph": "./data/graficos/SanataRitadoSapucai/3.png" }
         ]
     },
     {
@@ -162,9 +162,9 @@
             }
         ],
         "paths": [
-            { "graph": "./data/graficos/PousoAlegre/1.png" },
-            { "graph": "./data/graficos/PousoAlegre/2.jpg" },
-            { "graph": "./data/graficos/PousoAlegre/3.jpg" }
+            { "graph": "./data/graficos/Paraisopolis/1.png" },
+            { "graph": "./data/graficos/Paraisopolis/2.png" },
+            { "graph": "./data/graficos/Paraisopolis/3.png" }
         ]
     }
 ]

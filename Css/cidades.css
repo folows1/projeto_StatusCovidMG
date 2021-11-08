@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     border: 0;
+    color: #76000b;
 }
 
 body {
@@ -14,11 +15,19 @@ body {
     position: relative;
 }
 
+.card:hover{
+    box-shadow: 0 0 1em #76000b;
+    transition: all ease 1s;
+}
+
 #link-vacinas {
     font-size: 20px;
     position: absolute;
     display: inline;
     color: #76000b;
+}
+
+#link-vacinas:hover {
     text-decoration: underline;
 }
 
@@ -103,7 +112,8 @@ ul {
 #estatisticas,
 #mapas {
     width: 50%;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .tab {
@@ -112,7 +122,9 @@ ul {
 }
 
 .tab.active {
-    text-decoration: underline;
+    background-color: rgb(239, 151, 151);
+    font-weight: 700;
+    transition: all ease 0.75s;
 }
 
 .tabs {
@@ -490,7 +502,7 @@ ul {
 @media screen and (max-width: 767px) {
     #link-vacinas {
         top: 75px;
-        left: 200px;
+        right: 0;
     }
 
     .div-link {
@@ -530,11 +542,11 @@ ul {
     select {
         color: #76000b;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 22px;
         background-color: transparent;
         /* background-color: rgb(236, 216, 216); */
         border-radius: 10px;
-        width: 300px;
+        width: 250px;
         cursor: pointer;
     }
 
@@ -667,6 +679,6 @@ ul {
     }
 
     #dirAuto {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
