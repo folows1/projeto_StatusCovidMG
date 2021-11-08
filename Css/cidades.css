@@ -8,7 +8,52 @@
 body {
     background-color: rgb(233, 190, 190);
     /* background-image: url(/img/Shape\ 2.png); */
-    
+}
+
+.header {
+    position: relative;
+}
+
+#link-vacinas {
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    color: #76000b;
+    text-decoration: underline;
+}
+
+#rodape {
+    width: 100%;
+    background-color: #76000b;
+    position: fixed;
+    bottom: 0;
+}
+
+#stats {
+    padding-bottom: 20px;
+}
+
+#logoUnivas {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#dirAuto {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+#totalVacinados {
+    font-size: 20px;
+}
+#primeiraDose {
+    font-size: 20px;
 }
 
 ul {
@@ -27,15 +72,10 @@ ul {
 .div-link {
     text-align: left;
     display: inline-block;
-    width: 330px;
-    margin-left: 15px;
-    margin-right: 15px;
     margin-bottom: 40px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    font-size: 14px;
-    font-weight: 500;
-    color: white;
+    padding-top: 10px;
+    font-weight: 700;
+    color: #76000b;
     background-color: #d87878;
     border-radius: 10px;
 }
@@ -43,12 +83,12 @@ ul {
 .li-name,
 .li-rua,
 .li-cep {
-    padding-bottom: 5px;
-    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .div-link:hover {
-    background-color: #EF9797;
+    background-color: #ef9797;
     transition: all ease 0.5s;
 }
 
@@ -64,7 +104,6 @@ ul {
 #mapas {
     width: 50%;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .tab {
@@ -77,7 +116,7 @@ ul {
 }
 
 .tabs {
-    color: #76000B;
+    color: #76000b;
     text-align: center;
     width: 95%;
     display: flex;
@@ -91,13 +130,28 @@ ul {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     text-align: center;
     /* The width is the width of the web page */
 }
 
+.box {
+    margin-bottom: 80px;
+}
+
 /* COMPUTADOR 1920X1080 */
 @media screen and (min-width: 1024px) {
+    #link-vacinas {
+        top: 15px;
+        left: 300px;
+    }
+
+    .div-link {
+        width: 330px;
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
     /* CABECALHO */
     .container {
         width: 95%;
@@ -122,13 +176,10 @@ ul {
         margin: 0 10px;
     }
 
-    span {
-        font-size: 20px;
-    }
-
     select {
-        color: #76000B;
+        color: #76000b;
         font-size: 26px;
+        font-weight: 700;
         background-color: transparent;
         /* background-color: rgb(236, 216, 216); */
         border-radius: 10px;
@@ -174,7 +225,7 @@ ul {
         margin-right: auto;
         margin-bottom: 20px;
         line-height: 70px;
-        color: #76000B;
+        color: #76000b;
     }
 
     .porcentagem1,
@@ -182,7 +233,7 @@ ul {
         transition: width 2s ease 0.5s;
         border-radius: 10px;
         height: 15px;
-        background-color: #76000B;
+        background-color: #76000b;
     }
 
     .porcentagem1 {
@@ -195,7 +246,7 @@ ul {
 
     .porcentagem {
         border-radius: 10px;
-        background-color: #ED8989;
+        background-color: #ed8989;
         border: 1px solid #4b1a1a31;
     }
 
@@ -204,11 +255,11 @@ ul {
     }
 
     .b-vac1 {
-        background-color: #EF9797;
+        background-color: #ef9797;
     }
 
     .b-vac2 {
-        background-color: #EF9797;
+        background-color: #ef9797;
     }
 
     .card {
@@ -230,19 +281,19 @@ ul {
     }
 
     .b1 {
-        background-color: #EF9797;
+        background-color: #ef9797;
     }
 
     .b2 {
-        background-color: #EF9797;
+        background-color: #ef9797;
     }
 
     .b3 {
-        background-color: #EF9797;
+        background-color: #ef9797;
     }
 
     .b4 {
-        background-color: #EF9797;
+        background-color: #ef9797;
     }
 
     .div-graph {
@@ -252,9 +303,370 @@ ul {
         padding-bottom: 20px;
         text-align: center;
     }
+    .card > span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .card > h2 {
+        font-weight: 700;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    #link-vacinas {
+        top: 15px;
+        left: 300px;
+    }
+    .div-link {
+        width: 330px;
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    /* CABECALHO */
+
+    .container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header {
+        width: 95%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    #social {
+        margin-top: 10px;
+        float: right;
+    }
+    #LogoFB,
+    #LogoTwitter,
+    #LogoInsta {
+        margin: 0 10px;
+    }
+
+    select {
+        color: #76000b;
+        font-weight: 600;
+        font-size: 26px;
+        background-color: transparent;
+        /* background-color: rgb(236, 216, 216); */
+        border-radius: 10px;
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .bloco,
+    .bloco2 {
+        font-size: 12px;
+        width: 45%;
+        display: inline;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .bloco {
+        float: left;
+    }
+
+    .bloco2 {
+        float: right;
+    }
+
+    .layer {
+        height: 100px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+        line-height: 50px;
+    }
+
+    .box {
+        background-color: rgb(238, 202, 202, 0.95);
+        border-radius: 10px;
+    }
+
+    .layer-select {
+        height: 140px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        line-height: 70px;
+        color: #76000b;
+    }
+
+    .porcentagem1,
+    .porcentagem2 {
+        transition: width 2s ease 0.5s;
+        border-radius: 10px;
+        height: 15px;
+        background-color: #76000b;
+    }
+
+    .porcentagem1 {
+        width: 1%;
+    }
+
+    .porcentagem2 {
+        width: 1%;
+    }
+
+    .porcentagem {
+        border-radius: 10px;
+        background-color: #ed8989;
+        border: 1px solid #4b1a1a31;
+    }
+
+    b {
+        float: right;
+    }
+
+    .b-vac1 {
+        background-color: #ef9797;
+    }
+
+    .b-vac2 {
+        background-color: #ef9797;
+    }
+
+    .card {
+        width: 20%;
+        text-align: center;
+        border-radius: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .card > h2 {
+        font-size: 12px;
+    }
+
+    .card > span {
+        font-size: 16px;
+    }
+
+    .layer2 {
+        display: flex;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+
+    .b1 {
+        background-color: #ef9797;
+    }
+
+    .b2 {
+        background-color: #ef9797;
+    }
+
+    .b3 {
+        background-color: #ef9797;
+    }
+
+    .b4 {
+        background-color: #ef9797;
+    }
+
+    .div-graph {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        text-align: center;
+    }
 }
+
 @media screen and (max-width: 767px) {
+    #link-vacinas {
+        top: 75px;
+        left: 200px;
+    }
+
+    .div-link {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .label {
+        padding-bottom: 20px;
+    }
+
+    .container {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header {
+        width: 95%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+
+    #social {
+        margin-top: 10px;
+    }
+
+    #LogoTwitter,
+    #LogoInsta {
+        margin: 0 10px;
+    }
+    #LogoFB {
+        margin-right: 10px;
+    }
+
+    select {
+        color: #76000b;
+        font-weight: 600;
+        font-size: 25px;
+        background-color: transparent;
+        /* background-color: rgb(236, 216, 216); */
+        border-radius: 10px;
+        width: 300px;
+        cursor: pointer;
+    }
+
+    .bloco,
+    .bloco2 {
+        padding-top: 15px;
+        font-size: 10px;
+        width: 100%;
+        display: inline;
+        font-weight: 700;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #ef9797;
+        margin-bottom: 20px;
+    }
+
+    .bloco {
+        float: left;
+        padding-bottom: 15px;
+    }
+
+    .bloco2 {
+        float: right;
+        padding-bottom: 15px;
+    }
+
+    .layer {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .layer > h2 {
+        font-size: 16px;
+    }
+
+    .box {
+        background-color: rgb(238, 202, 202, 0.95);
+        border-radius: 10px;
+    }
+
+    .layer-select {
+        font-size: 15px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        color: #76000b;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .porcentagem1,
+    .porcentagem2 {
+        transition: width 2s ease 0.5s;
+        border-radius: 10px;
+        height: 15px;
+        background-color: #76000b;
+    }
+
+    .porcentagem1 {
+        width: 1%;
+    }
+
+    .porcentagem2 {
+        width: 1%;
+    }
+
+    .porcentagem {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-color: #ed8989;
+        border: 1px solid #4b1a1a31;
+    }
+
+    b {
+        float: right;
+    }
+
+    .card {
+        width: 100%;
+        text-align: center;
+        border-radius: 15px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .card > h2 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .card > span {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .layer2 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .b1 {
+        background-color: #ef9797;
+    }
+
+    .b2 {
+        background-color: #ef9797;
+    }
+
+    .b3 {
+        background-color: #ef9797;
+    }
+
+    .b4 {
+        background-color: #ef9797;
+    }
+
+    .div-graph {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #dirAuto {
+        font-size: 12px;
+    }
 }
