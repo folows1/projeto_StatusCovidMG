@@ -151,8 +151,19 @@ ul {
     margin-bottom: 80px;
 }
 
+#grafico{
+    display: none;
+}
+
 /* COMPUTADOR 1920X1080 */
 @media screen and (min-width: 1024px) {
+
+    @media screen and (min-width: 1300px) {
+        #grafico {
+            display: inline;
+        }
+    }
+
     #link-vacinas {
         top: 15px;
         left: 300px;
@@ -500,6 +511,7 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
+    
     #link-vacinas {
         top: 75px;
         right: 0;
