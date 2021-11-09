@@ -138,9 +138,9 @@
             }
         ],
         "paths": [
-            { "graph": "./data/graficos/SanataRitadoSapucai/1.png" },
-            { "graph": "./data/graficos/SanataRitadoSapucai/2.png" },
-            { "graph": "./data/graficos/SanataRitadoSapucai/3.png" }
+            { "graph": "./data/graficos/SantaRitadoSapucai/1.png" },
+            { "graph": "./data/graficos/SantaRitadoSapucai/2.png" },
+            { "graph": "./data/graficos/SantaRitadoSapucai/3.png" }
         ]
     },
     {

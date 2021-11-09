@@ -5,14 +5,55 @@
     font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
     background-color: rgb(233, 190, 190);
     /* background-image: url(/img/Shape\ 2.png); */
 }
 
-@media screen and (min-width: 1024px) {
+#link-cidades:hover {
+    text-decoration: underline;
+}
 
+#rodape {
+    width: 100%;
+    background-color: #76000b;
+    position: fixed;
+    bottom: 0;
+}
+
+.header {
+    position: relative;
+}
+
+#link-cidades {
+    font-size: 20px;
+    position: absolute;
+    display: inline;
+    color: #76000b;
+}
+
+#logoUnivas {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#dirAuto {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 1024px) {
     /* CABECALHO */
+    #link-cidades {
+        top: 15px;
+        left: 300px;
+    }
 
     .container {
         width: 95%;
@@ -31,103 +72,78 @@ body{
         margin-top: 10px;
         float: right;
     }
-    #logoFB, #logoTwitter, #logoInsta{
+    #logoFB,
+    #logoTwitter,
+    #logoInsta {
         margin: 0 10px;
-    } 
+    }
 
-/* BODY */
+    /* BODY */
 
-[data-tab-content]{
-    display: none;
-}
+    [data-tab-content] {
+        display: none;
+    }
 
-.active[data-tab-content]{
-    display: block;
-}
+    .active[data-tab-content] {
+        display: block;
+    }
 
-.tabs{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-}
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
 
-.tab{
-    font-size: 24PX;
-    color: #76000B;
-    cursor: pointer;
-}
+    .tab {
+        font-size: 24px;
+        color: #76000b;
+        cursor: pointer;
+    }
 
-.tab.active{
-    text-decoration: underline;
-}
+    .tab.active {
+        text-decoration: underline;
+    }
 
-.tab:hover{
-    background-color: #d68d94ad
-    ;
-}
+    .tab:hover {
+        background-color: #d68d94ad;
+    }
 
-.tab-content{
-    display: flex;
-    text-align: center;
-}
+    .tab-content {
+        display: flex;
+        text-align: center;
+    }
 
-.content{
-    display: flex;
-    justify-content: center;
-    text-align:center;
-    margin: 5% auto;
-}
+    .content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 5% auto;
+    }
 
-/* #texto{
+    /* #texto{
     width: 60%;
 } */
 
-.content-left p {
-    text-align: left;
-    font-size: 24px ;
-}
-
-.content-left h1{
-    font-size: 55px;    
-    padding: 30px 0px;
-
-}
-
-.content-right img{
-    position: relative;
-    padding: 30px 0px;
-    height: 60%;
-    width: auto;
-}
-
-.content-left h1, p{
-    color: #76000B;
-}
-
-
-
-/* RODAPE */
-#rodape {
-        position: fixed;
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-        background: #9b000f;
+    .content-left p {
+        text-align: left;
+        font-size: 24px;
     }
 
-#logoUnivas {
-    display: inline;
-    float: left;
-    margin: 12.5px 20px ;
+    .content-left h1 {
+        font-size: 55px;
+        padding: 30px 0px;
+    }
 
-}
+    .content-right img {
+        position: relative;
+        padding: 30px 0px;
+        height: 60%;
+        width: auto;
+    }
 
-#dirAuto {
-    display: inline;
-    float: right;
-    margin: 10px 20px;    
-    font-size: 20px;
-    color: #ffffff;
+    .content-left h1,
+    p {
+        color: #76000b;
     }
 
 }
@@ -135,6 +151,11 @@ body{
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     /* CABECALHO */
 
+    #link-cidades {
+        top: 15px;
+        left: 300px;
+    }
+
     .container {
         width: 95%;
         margin-left: auto;
@@ -152,111 +173,92 @@ body{
         margin-top: 10px;
         float: right;
     }
-    #logoFB, #logoTwitter, #logoInsta{
+    #logoFB,
+    #logoTwitter,
+    #logoInsta {
         margin: 0 10px;
-    } 
+    }
 
-/* BODY */
+    /* BODY */
 
-[data-tab-content]{
-    display: none;
-}
+    [data-tab-content] {
+        display: none;
+    }
 
-.active[data-tab-content]{
-    display: block;
-}
+    .active[data-tab-content] {
+        display: block;
+    }
 
-.tabs{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-}
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
 
-.tab{
-    font-size: 18px;
-    color: #76000B;
-    cursor: pointer;
-}
+    .tab {
+        font-size: 18px;
+        color: #76000b;
+        cursor: pointer;
+    }
 
-.tab.active{
-    text-decoration: underline;
-}
+    .tab.active {
+        text-decoration: underline;
+    }
 
-.tab:hover{
-    background-color: #d68d94ad
-    ;
-}
+    .tab:hover {
+        background-color: #d68d94ad;
+    }
 
-.tab-content{
-    display: flex;
-    text-align: center;
-    vertical-align: middle;
-}
+    .tab-content {
+        display: flex;
+        text-align: center;
+        vertical-align: middle;
+    }
 
-.content{
-    display: flex;
-    justify-content: center;
-    text-align:center;
-    margin: 5% auto;
-}
+    .content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 5% auto;
+    }
 
-/* #texto{
+    /* #texto{
     width: 60%;
 } */
 
-.content-left p {
-    text-align: left;
-    font-size: 18px ;
-}
-
-.content-left h1{
-    font-size: 48px;    
-    padding: 30px 0px;
-
-}
-
-.content-right img{
-    margin-top: 30%;
-    /* position: relative; */
-    height: 40%;
-    width: auto;
-}
-
-.content-left h1, p{
-    color: #76000B;
-}
-
-
-
-/* RODAPE */
-#rodape {
-        position: fixed;
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-        background: #9b000f;
+    .content-left p {
+        text-align: left;
+        font-size: 18px;
     }
 
-#logoUnivas {
-    display: inline;
-    float: left;
-    margin: 12.5px 20px ;
-
-}
-
-#dirAuto {
-    display: inline;
-    float: right;
-    margin: 10px 20px;    
-    font-size: 20px;
-    color: #ffffff;
+    .content-left h1 {
+        font-size: 48px;
+        padding: 30px 0px;
     }
 
+    .content-right img {
+        margin-top: 30%;
+        /* position: relative; */
+        height: 40%;
+        width: auto;
+    }
+
+    .content-left h1,
+    p {
+        color: #76000b;
+    }
+
+    
 }
 
 @media screen and (max-width: 767px) {
     /* CABECALHO */
 
+    #link-cidades {
+        top: 75px;
+        right: 0;
+    }
+
     .container {
         width: 95%;
         margin-left: auto;
@@ -272,117 +274,86 @@ body{
 
     #socialIcons {
         margin-top: 10px;
-        float: right;
     }
-    #logoFB, #logoTwitter, #logoInsta{
+
+    #LogoTwitter,
+    #LogoInsta {
         margin: 0 10px;
     }
-
-    #logoFB,
-    #logoTwitter,
-    #logoInsta{
-        width: 25px;
+    #LogoFB {
+        margin-right: 10px;
     }
 
-    #logoSCMG{
-        width: 175px;
+    /* BODY */
+
+    [data-tab-content] {
+        display: none;
     }
 
-/* BODY */
+    .active[data-tab-content] {
+        display: block;
+    }
 
-[data-tab-content]{
-    display: none;
-}
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
 
-.active[data-tab-content]{
-    display: block;
-}
+    .tab {
+        font-size: 14px;
+        color: #76000b;
+        cursor: pointer;
+    }
 
-.tabs{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-}
+    .tab.active {
+        text-decoration: underline;
+    }
 
-.tab{
-    font-size: 14px;
-    color: #76000B;
-    cursor: pointer;
-}
+    .tab:hover {
+        background-color: #d68d94ad;
+    }
 
-.tab.active{
-    text-decoration: underline;
-}
+    .tab-content {
+        display: flex;
+        text-align: center;
+        vertical-align: middle;
+    }
 
-.tab:hover{
-    background-color: #d68d94ad
-    ;
-}
+    .content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 5% auto;
+    }
 
-.tab-content{
-    display: flex;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.content{
-    display: flex;
-    justify-content: center;
-    text-align:center;
-    margin: 5% auto;
-}
-
-/* #texto{
+    /* #texto{
     width: 60%;
 } */
 
-.content-left p {
-    text-align: left;
-    font-size: 18px ;
-}
-
-.content-left h1{
-    font-size: 48px;    
-    padding: 30px 0px;
-
-}
-.content-left h1, p{
-    color: #76000B;
-}
-
-.content-right img{
-    margin-top: 30%;
-    /* position: relative; */
-    height: 40%;
-    width: auto;
-}
-
-
-
-
-/* RODAPE */
-#rodape {
-        position: fixed;
-        width: 100%;
-        height: 50px;
-        bottom: 0;
-        background: #9b000f;
+    .content-left p {
+        text-align: left;
+        font-size: 18px;
     }
 
-#logoUnivas {
-    display: inline;
-    float: left;
-    margin: 12.5px 20px ;
-
-}
-
-#dirAuto {
-    display: inline;
-    float: right;
-    margin: 10px 20px;    
-    font-size: 20px;
-    color: #ffffff;
+    .content-left h1 {
+        font-size: 48px;
+        padding: 30px 0px;
+    }
+    .content-left h1,
+    p {
+        color: #76000b;
     }
 
+    .content-right img {
+        margin-top: 30%;
+        /* position: relative; */
+        height: 40%;
+        width: auto;
+    }
+
+    /* RODAPE */
+    #dirAuto {
+        font-size: 10px;
+    }
 }
-    
