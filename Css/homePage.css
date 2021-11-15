@@ -5,18 +5,18 @@
 }
 
 body {
-    background-color: rgb(233, 190, 190);
+    background-color: #90b1db;
 }
 
 #cidades:hover,
     #vacinas:hover {
-        box-shadow: 0 0 1em red;
+        box-shadow: 0 0 1em #90b1db;
         transition: all ease 1s;
     }
 
 #rodape {
     width: 100%;
-    background-color: #76000b;
+    background-color: #004f92;
     position: fixed;
     bottom: 0;
 }
@@ -72,18 +72,18 @@ body {
     /* BODY */
     #group {
         position: fixed;
-        width: 56%;
-        left: 0.5%;
-        bottom: 50px;
+        width: 35%;
+        top: 150px;
+        left: 10%;
         background: transparent;
     }
 
     .div_texto {
         position: absolute;
         width: 45%;
-        top: 150px;
+        top: 250px;
         text-align: center;
-        right: 10px;
+        right: 50px;
     }
 
     #titulo {
@@ -91,7 +91,7 @@ body {
         height: 50px;
         font-size: 55px;
         line-height: 55px;
-        color: #000000;
+        color: #004f92;
     }
 
     #corpo {
@@ -100,7 +100,7 @@ body {
         height: 20%;
         margin-top: 5%;
         font-size: 22px;
-        color: #000000;
+        color: #004f92;
     }
 
     .div_button{
@@ -112,10 +112,10 @@ body {
 
     #cidades,
     #vacinas {
-        background: #9b000f;
+        background: #004f92;
         border-radius: 25px;
         vertical-align: middle;
-        box-shadow: 0 0 1em #410007;
+        box-shadow: 0 0 1em #002f5c;
     }
 
     #cidades {
