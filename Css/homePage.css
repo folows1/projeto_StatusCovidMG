@@ -81,7 +81,7 @@ body {
     .div_texto {
         position: absolute;
         width: 45%;
-        top: 250px;
+        top: 20%;
         text-align: center;
         right: 50px;
     }
@@ -98,7 +98,7 @@ body {
         text-align: center;
         width: auto;
         height: 20%;
-        margin-top: 5%;
+        /* margin-top: 5%; */
         font-size: 22px;
         color: #004f92;
     }
