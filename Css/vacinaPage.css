@@ -218,7 +218,7 @@ body {
     }
 
     .tab:hover {
-        background-color: #d68d94ad;
+        background-color: #71a0dd;
     }
 
     .tab-content {
@@ -314,7 +314,7 @@ body {
 
     .tab {
         font-size: 12px;
-        color: #76000b;
+        color: #004f92;
         cursor: pointer;
     }
 
@@ -323,7 +323,7 @@ body {
     }
 
     .tab:hover {
-        background-color: #d68d94ad;
+        background-color: #71a0dd;
     }
 
     /* #texto{
@@ -347,7 +347,7 @@ body {
     }
     .content-left h1,
     p {
-        color: #76000b;
+        color: #004f92;
     }
 
     .content-right img {

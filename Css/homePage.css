@@ -211,7 +211,7 @@ body {
         height: 50px;
         font-size: 35px;
         line-height: 55px;
-        color: #000000;
+        color: #004f92;
     }
 
     #corpo {
@@ -220,7 +220,7 @@ body {
         height: 20%;
         margin-top: 5%;
         font-size: 18px;
-        color: #000000;
+        color: #004f92;
     }
 
     .div_button{
@@ -232,10 +232,10 @@ body {
 
     #cidades,
     #vacinas {
-        background: #9b000f;
+        background: #004f92;
         border-radius: 25px;
         vertical-align: middle;
-        box-shadow: 0 0 1em #410007;
+        box-shadow: 0 0 1em #002f5c;
     }
 
     #cidades {
@@ -318,7 +318,7 @@ body {
         height: 50px;
         font-size: 35px;
         line-height: 55px;
-        color: #000000;
+        color: #004f92;
     }
     
     #corpo {
@@ -326,7 +326,7 @@ body {
         width: auto;
         margin: 0 5px ;
         font-size: 18px;
-        color: #000000;
+        color: #004f92;
     }
     
     .div_button{
@@ -336,10 +336,10 @@ body {
     
     #cidades,
     #vacinas {
-        background: #9b000f;
+        background: #004f92;
         border-radius: 25px;
         vertical-align: middle;
-        box-shadow: 0 0 1em #410007;
+        box-shadow: 0 0 1em #002f5c;
     }
     #cidades {
         width: 150px;

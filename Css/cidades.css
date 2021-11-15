@@ -97,7 +97,7 @@ ul {
 }
 
 .div-link:hover {
-    background-color: #90b1db;
+    box-shadow: 0 0 1em #004f92;
     transition: all ease 0.5s;
 }
 
@@ -269,7 +269,7 @@ ul {
 
     .porcentagem {
         border-radius: 10px;
-        background-color: #00569d;
+        background-color: #90b1db;
         border: 1px solid #002f5c;
     }
 
@@ -374,7 +374,7 @@ ul {
     }
 
     select {
-        color: #76000b;
+        color: #004f92;
         font-weight: 600;
         font-size: 26px;
         background-color: transparent;
@@ -412,7 +412,7 @@ ul {
     }
 
     .box {
-        background-color: rgb(238, 202, 202, 0.95);
+        background-color: #7194c0;
         border-radius: 10px;
     }
 
@@ -423,7 +423,7 @@ ul {
         margin-right: auto;
         margin-bottom: 20px;
         line-height: 70px;
-        color: #76000b;
+        color: #004f92;
     }
 
     .porcentagem1,
@@ -431,7 +431,7 @@ ul {
         transition: width 2s ease 0.5s;
         border-radius: 10px;
         height: 15px;
-        background-color: #76000b;
+        background-color: #004f92;
     }
 
     .porcentagem1 {
@@ -444,8 +444,8 @@ ul {
 
     .porcentagem {
         border-radius: 10px;
-        background-color: #ed8989;
-        border: 1px solid #4b1a1a31;
+        background-color: #90b1db;
+        border: 1px solid #002f5c;
     }
 
     b {
@@ -453,11 +453,11 @@ ul {
     }
 
     .b-vac1 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b-vac2 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .card {
@@ -486,19 +486,19 @@ ul {
     }
 
     .b1 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b2 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b3 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b4 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .div-graph {
@@ -552,7 +552,7 @@ ul {
     }
 
     select {
-        color: #76000b;
+        color: #004f92;
         font-weight: 600;
         font-size: 22px;
         background-color: transparent;
@@ -571,8 +571,8 @@ ul {
         font-weight: 700;
         text-align: center;
         border-radius: 15px;
-        background-color: #ef9797;
         margin-bottom: 20px;
+        background-color: #90b1db;
     }
 
     .bloco {
@@ -598,7 +598,7 @@ ul {
     }
 
     .box {
-        background-color: rgb(238, 202, 202, 0.95);
+        background-color: #7194c0;
         border-radius: 10px;
     }
 
@@ -608,7 +608,7 @@ ul {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
-        color: #76000b;
+        color: #004f92;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -618,7 +618,7 @@ ul {
         transition: width 2s ease 0.5s;
         border-radius: 10px;
         height: 15px;
-        background-color: #76000b;
+        background-color: #004f92;
     }
 
     .porcentagem1 {
@@ -633,8 +633,8 @@ ul {
         margin-top: 15px;
         margin-bottom: 15px;
         border-radius: 10px;
-        background-color: #ed8989;
-        border: 1px solid #4b1a1a31;
+        background-color: #90b1db;
+        border: 1px solid #002f5c;
     }
 
     b {
@@ -668,19 +668,19 @@ ul {
     }
 
     .b1 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b2 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b3 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .b4 {
-        background-color: #ef9797;
+        background-color: #90b1db;
     }
 
     .div-graph {
